@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  KunShanNews
+
+  Created by xiaogang meng on 7/14/12.
+  Copyright (c) 2012 itotem. All rights reserved.
+*/
+"Delete" = "关闭";
+"Loading..." = "正在加载...";
+"Pull down to refresh..." = "下拉可以刷新...";
+"Release to refresh..." = "松开即可刷新...";
+"Updated %ld days ago" = "上次更新时间: %ld 天前";
+"Updated %ld day ago" = "上次更新时间: %ld 天前";
+"Updated %ld hours ago" = "上次更新时间: %ld 小时前";
+"Updated %ld hour ago" = "上次更新时间: %ld 小时前";
+"Updated %ld minutes ago" = "上次更新时间: %ld 分钟前";
+"Updated %ld minute ago" = "上次更新时间: 刚刚";
+
+"Release to load more..." = "松开加载更多...";
+"Pull up to load more..." = "上拉可加载更多...";
+
