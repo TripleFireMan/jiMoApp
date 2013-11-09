@@ -129,7 +129,7 @@
 		F993B813182E87AA00E6B111 /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B79F182E87AA00E6B111 /* UIUtil.m */; };
 		F993B814182E87AA00E6B111 /* ITTXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A2182E87AA00E6B111 /* ITTXibView.m */; };
 		F993B815182E87AA00E6B111 /* ITTXibViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A4182E87AA00E6B111 /* ITTXibViewUtils.m */; };
-		F993B816182E87AA00E6B111 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A7182E87AA00E6B111 /* RootViewController.m */; };
+		F993B816182E87AA00E6B111 /* CYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A7182E87AA00E6B111 /* CYRootViewController.m */; };
 		F993B818182E89CD00E6B111 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B817182E89CD00E6B111 /* MapKit.framework */; };
 		F993B81A182E89D500E6B111 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B819182E89D500E6B111 /* ImageIO.framework */; };
 		F993B81C182E89E000E6B111 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B81B182E89E000E6B111 /* libz.1.2.5.dylib */; };
@@ -394,8 +394,8 @@
 		F993B7A2182E87AA00E6B111 /* ITTXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibView.m; sourceTree = "<group>"; };
 		F993B7A3182E87AA00E6B111 /* ITTXibViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTXibViewUtils.h; sourceTree = "<group>"; };
 		F993B7A4182E87AA00E6B111 /* ITTXibViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibViewUtils.m; sourceTree = "<group>"; };
-		F993B7A6182E87AA00E6B111 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		F993B7A7182E87AA00E6B111 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F993B7A6182E87AA00E6B111 /* CYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRootViewController.h; sourceTree = "<group>"; };
+		F993B7A7182E87AA00E6B111 /* CYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRootViewController.m; sourceTree = "<group>"; };
 		F993B817182E89CD00E6B111 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F993B819182E89D500E6B111 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F993B81B182E89E000E6B111 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
@@ -876,17 +876,17 @@
 		F993B78A182E87AA00E6B111 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F993B78B182E87AA00E6B111 /* AddressBookUtils.h */,
-				F993B78C182E87AA00E6B111 /* AddressBookUtils.m */,
-				F993B78D182E87AA00E6B111 /* CommonUtils.h */,
-				F993B78E182E87AA00E6B111 /* CommonUtils.m */,
+				F993B795182E87AA00E6B111 /* CYUsefulTool.h */,
 				F993B78F182E87AA00E6B111 /* CYConstTool.h */,
 				F993B790182E87AA00E6B111 /* CYConstTool.m */,
 				F993B791182E87AA00E6B111 /* CYUrlSets.h */,
 				F993B792182E87AA00E6B111 /* CYUrlSets.m */,
 				F993B793182E87AA00E6B111 /* CYUsefulCFunctionSets.h */,
 				F993B794182E87AA00E6B111 /* CYUsefulCFunctionSets.m */,
-				F993B795182E87AA00E6B111 /* CYUsefulTool.h */,
+				F993B78B182E87AA00E6B111 /* AddressBookUtils.h */,
+				F993B78C182E87AA00E6B111 /* AddressBookUtils.m */,
+				F993B78D182E87AA00E6B111 /* CommonUtils.h */,
+				F993B78E182E87AA00E6B111 /* CommonUtils.m */,
 				F993B796182E87AA00E6B111 /* ITTCommonMacros.h */,
 				F993B797182E87AA00E6B111 /* ITTDebug.h */,
 				F993B798182E87AA00E6B111 /* LocaleUtils.h */,
@@ -916,8 +916,8 @@
 		F993B7A5182E87AA00E6B111 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F993B7A6182E87AA00E6B111 /* RootViewController.h */,
-				F993B7A7182E87AA00E6B111 /* RootViewController.m */,
+				F993B7A6182E87AA00E6B111 /* CYRootViewController.h */,
+				F993B7A7182E87AA00E6B111 /* CYRootViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1117,7 +1117,7 @@
 				F993B7EE182E87AA00E6B111 /* ASINetworkQueue.m in Sources */,
 				F993B810182E87AA00E6B111 /* LocaleUtils.m in Sources */,
 				F993B7FF182E87AA00E6B111 /* NSData+GIF.m in Sources */,
-				F993B816182E87AA00E6B111 /* RootViewController.m in Sources */,
+				F993B816182E87AA00E6B111 /* CYRootViewController.m in Sources */,
 				F993B7E9182E87AA00E6B111 /* ASIDataDecompressor.m in Sources */,
 				F993B7BF182E87AA00E6B111 /* ITTGobalPaths.m in Sources */,
 				F993B80F182E87AA00E6B111 /* CYUsefulCFunctionSets.m in Sources */,

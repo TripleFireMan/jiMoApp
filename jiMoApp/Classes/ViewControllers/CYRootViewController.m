@@ -6,13 +6,13 @@
 //  Copyright (c) 2013年 chengYan. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "CYRootViewController.h"
 
-@interface RootViewController ()
+@interface CYRootViewController ()
 
 @end
 
-@implementation RootViewController
+@implementation CYRootViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
