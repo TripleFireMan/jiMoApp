@@ -138,6 +138,7 @@
 		F993B822182E89FA00E6B111 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B821182E89FA00E6B111 /* MobileCoreServices.framework */; };
 		F993B824182E8A0200E6B111 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B823182E8A0200E6B111 /* SystemConfiguration.framework */; };
 		F993B826182E8A0800E6B111 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B825182E8A0800E6B111 /* CFNetwork.framework */; };
+		F9B13F77182FFFE100FD4430 /* CYCommonMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B13F76182FFFE100FD4430 /* CYCommonMacros.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -404,6 +405,8 @@
 		F993B821182E89FA00E6B111 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F993B823182E8A0200E6B111 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F993B825182E8A0800E6B111 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F9B13F75182FFFE100FD4430 /* CYCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCommonMacros.h; sourceTree = "<group>"; };
+		F9B13F76182FFFE100FD4430 /* CYCommonMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCommonMacros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -877,6 +880,8 @@
 			isa = PBXGroup;
 			children = (
 				F993B795182E87AA00E6B111 /* CYUsefulTool.h */,
+				F9B13F75182FFFE100FD4430 /* CYCommonMacros.h */,
+				F9B13F76182FFFE100FD4430 /* CYCommonMacros.m */,
 				F993B78F182E87AA00E6B111 /* CYConstTool.h */,
 				F993B790182E87AA00E6B111 /* CYConstTool.m */,
 				F993B791182E87AA00E6B111 /* CYUrlSets.h */,
@@ -1066,6 +1071,7 @@
 				F993B803182E87AA00E6B111 /* SDWebImageDownloader.m in Sources */,
 				F993B7FE182E87AA00E6B111 /* MKAnnotationView+WebCache.m in Sources */,
 				F993B7B6182E87AA00E6B111 /* UIView+ITTAdditions.m in Sources */,
+				F9B13F77182FFFE100FD4430 /* CYCommonMacros.m in Sources */,
 				F993B7D6182E87AA00E6B111 /* ITTDataRequestManager.m in Sources */,
 				F993B7D5182E87AA00E6B111 /* ITTBaseDataRequest.m in Sources */,
 				F993B7E1182E87AA00E6B111 /* AFJSONRequestOperation.m in Sources */,
