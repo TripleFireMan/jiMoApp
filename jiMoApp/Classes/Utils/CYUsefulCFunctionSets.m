@@ -194,6 +194,20 @@ float distanceBetweenTwoPoint(CGPoint p1,CGPoint p2)
     return sqrtf((p1.x-p2.x)*(p1.x-p2.x)+(p1.y-p2.y)*(p1.y-p2.y));
 }
 
+float degressConvertToRadian(float degress)
+{
+    float radian = 0.0f;
+    radian = (degress * M_1_PI) / 180;
+    return radian;
+}
+
+float radianConvertToDegress(float radian)
+{
+    float degress = 0.0f;
+    degress = (radian * 180) / M_1_PI;
+    return degress;
+}
+
 #pragma mark -
 #pragma mark colorMethods
 

@@ -22,6 +22,7 @@
 {
 	ASIDataCompressor *compressor = [[[self alloc] init] autorelease];
 	[compressor setupStream];
+    
 	return compressor;
 }
 

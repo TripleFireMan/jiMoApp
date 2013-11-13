@@ -59,6 +59,10 @@ extern NSArray *randomLotteryArray(int from, int to, int count);
 extern NSArray *sortArray(NSArray *array,BOOL isAsc);
 /*计算俩点之间距离的公式*/
 extern float distanceBetweenTwoPoint(CGPoint p1,CGPoint p2);
+/*角度转换为弧度的函数*/
+extern float degressConvertToRadian(float degress);
+/*弧度转换为角度的函数*/
+extern float radianConvertToDegress(float radian);
 
 #pragma mark -
 #pragma mark colorMethods
