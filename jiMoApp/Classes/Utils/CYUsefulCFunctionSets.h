@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonDigest.h>
+#include <ifaddrs.h>
+#include <arpa/inet.h>
+#import <mach/mach.h>
+#import <mach/mach_host.h>
 
 #pragma mark -
 #pragma mark animations
@@ -23,6 +27,10 @@ extern void cyKeyFrameAnimation(NSArray *array,UIView *object,NSString *keyPath)
 extern NSString *stampTimeConvertToNormalTime(NSString *stampTime);
 /*****md5加密******/
 extern NSString *md5(NSString *aString);
+/*小写的26个字母*/
+extern NSArray *lowerLetters();
+/*大写的26个字母*/
+extern NSArray *upperLetters();
 
 #pragma mark -
 #pragma mark uiMethods
@@ -71,4 +79,19 @@ extern float radianConvertToDegress(float radian);
 extern UIColor *rgbColor(float r,float g, float b);
 /*RGBA颜色*/
 extern UIColor *rgbaColor(float r,float g,float b,float a);
+
+#pragma mark -
+#pragma mark UIDevice relates
+
+/*ip地址*/
+extern NSString *ipAddress();
+/*剩余内存*/
+extern NSString *freeMemory();
+/*已使用的空间*/
+extern NSString *diskUsed();
+
+
+
+
+
 
