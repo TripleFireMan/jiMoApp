@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3AC97418EEC7C7008764A0 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */; };
+		4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */; };
+		4C3AC97618EEC7C7008764A0 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */; };
+		4C3AC97718EEC7C7008764A0 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */; };
 		F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */; };
 		F9119A2E182E8A9100460BE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2B182E8A9100460BE6 /* Default.png */; };
 		F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2C182E8A9100460BE6 /* Default@2x.png */; };
@@ -152,6 +156,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3AC96B18EEC7C7008764A0 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		4C3AC96D18EEC7C7008764A0 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		4C3AC96E18EEC7C7008764A0 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		4C3AC97018EEC7C7008764A0 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		4C3AC97218EEC7C7008764A0 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9119A2B182E8A9100460BE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F9119A2C182E8A9100460BE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -441,6 +454,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C3AC96A18EEC7C7008764A0 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AC96B18EEC7C7008764A0 /* MMDrawerBarButtonItem.h */,
+				4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */,
+				4C3AC96D18EEC7C7008764A0 /* MMDrawerController+Subclass.h */,
+				4C3AC96E18EEC7C7008764A0 /* MMDrawerController.h */,
+				4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */,
+				4C3AC97018EEC7C7008764A0 /* MMDrawerVisualState.h */,
+				4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */,
+				4C3AC97218EEC7C7008764A0 /* UIViewController+MMDrawerController.h */,
+				4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
 		F993B670182E868D00E6B111 = {
 			isa = PBXGroup;
 			children = (
@@ -692,6 +721,7 @@
 		F993B71B182E87A900E6B111 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				4C3AC96A18EEC7C7008764A0 /* MMDrawerController */,
 				F993B71C182E87A900E6B111 /* AFNetworking */,
 				F993B730182E87A900E6B111 /* ASI */,
 				F993B764182E87AA00E6B111 /* JSON */,
@@ -1058,6 +1088,7 @@
 				F993B7C4182E87AA00E6B111 /* ITTRefreshTableHeaderView.m in Sources */,
 				F993B7CF182E87AA00E6B111 /* ITTBaseModelObject.m in Sources */,
 				F993B7C0182E87AA00E6B111 /* ITTBaseManager.m in Sources */,
+				4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */,
 				F993B7D3182E87AA00E6B111 /* ITTAFQueryStringPair.m in Sources */,
 				F993B7B9182E87AA00E6B111 /* ITTFileCacheDao.m in Sources */,
 				F993B804182E87AA00E6B111 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1073,6 +1104,7 @@
 				F993B7B6182E87AA00E6B111 /* UIView+ITTAdditions.m in Sources */,
 				F9B13F77182FFFE100FD4430 /* CYCommonMacros.m in Sources */,
 				F993B7D6182E87AA00E6B111 /* ITTDataRequestManager.m in Sources */,
+				4C3AC97618EEC7C7008764A0 /* MMDrawerVisualState.m in Sources */,
 				F993B7D5182E87AA00E6B111 /* ITTBaseDataRequest.m in Sources */,
 				F993B7E1182E87AA00E6B111 /* AFJSONRequestOperation.m in Sources */,
 				F993B80A182E87AA00E6B111 /* UIImageView+WebCache.m in Sources */,
@@ -1131,12 +1163,14 @@
 				F993B80D182E87AA00E6B111 /* CYConstTool.m in Sources */,
 				F993B80E182E87AA00E6B111 /* CYUrlSets.m in Sources */,
 				F993B7E3182E87AA00E6B111 /* AFPropertyListRequestOperation.m in Sources */,
+				4C3AC97418EEC7C7008764A0 /* MMDrawerBarButtonItem.m in Sources */,
 				F993B7A9182E87AA00E6B111 /* ITTCommonFunctions.m in Sources */,
 				F993B7F4182E87AA00E6B111 /* ASICloudFilesObjectRequest.m in Sources */,
 				F993B7DD182E87AA00E6B111 /* TestDataRequest.m in Sources */,
 				F993B689182E868D00E6B111 /* main.m in Sources */,
 				F993B7F2182E87AA00E6B111 /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
 				F993B7B5182E87AA00E6B111 /* UITextField+ITTAdditions.m in Sources */,
+				4C3AC97718EEC7C7008764A0 /* UIViewController+MMDrawerController.m in Sources */,
 				F993B7BB182E87AA00E6B111 /* ITTImageCacheManager.m in Sources */,
 				F993B7B8182E87AA00E6B111 /* ITTDataCacheManager.m in Sources */,
 				F993B80C182E87AA00E6B111 /* CommonUtils.m in Sources */,
