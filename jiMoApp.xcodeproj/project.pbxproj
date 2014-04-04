@@ -11,6 +11,14 @@
 		4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */; };
 		4C3AC97618EEC7C7008764A0 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */; };
 		4C3AC97718EEC7C7008764A0 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */; };
+		4C3AC97B18EEE84D008764A0 /* CYLeftRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97918EEE84D008764A0 /* CYLeftRootViewController.m */; };
+		4C3AC97C18EEE84D008764A0 /* CYLeftRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AC97A18EEE84D008764A0 /* CYLeftRootViewController.xib */; };
+		4C3AC97F18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97E18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m */; };
+		4C3AC98518EF1568008764A0 /* UINavigationController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98418EF1568008764A0 /* UINavigationController+IOS_6_1.m */; };
+		4C3AC98818EF15B4008764A0 /* UITabBarController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */; };
+		4C3AC98B18EF1633008764A0 /* UIViewController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */; };
+		4C3AC99518EF26BB008764A0 /* CYBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC99318EF26BB008764A0 /* CYBookViewController.m */; };
+		4C3AC99618EF26BB008764A0 /* CYBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AC99418EF26BB008764A0 /* CYBookViewController.xib */; };
 		F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */; };
 		F9119A2E182E8A9100460BE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2B182E8A9100460BE6 /* Default.png */; };
 		F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2C182E8A9100460BE6 /* Default@2x.png */; };
@@ -133,7 +141,7 @@
 		F993B813182E87AA00E6B111 /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B79F182E87AA00E6B111 /* UIUtil.m */; };
 		F993B814182E87AA00E6B111 /* ITTXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A2182E87AA00E6B111 /* ITTXibView.m */; };
 		F993B815182E87AA00E6B111 /* ITTXibViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A4182E87AA00E6B111 /* ITTXibViewUtils.m */; };
-		F993B816182E87AA00E6B111 /* CYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A7182E87AA00E6B111 /* CYRootViewController.m */; };
+		F993B816182E87AA00E6B111 /* CYCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A7182E87AA00E6B111 /* CYCenterViewController.m */; };
 		F993B818182E89CD00E6B111 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B817182E89CD00E6B111 /* MapKit.framework */; };
 		F993B81A182E89D500E6B111 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B819182E89D500E6B111 /* ImageIO.framework */; };
 		F993B81C182E89E000E6B111 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B81B182E89E000E6B111 /* libz.1.2.5.dylib */; };
@@ -165,6 +173,20 @@
 		4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
 		4C3AC97218EEC7C7008764A0 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
 		4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		4C3AC97818EEE84D008764A0 /* CYLeftRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLeftRootViewController.h; sourceTree = "<group>"; };
+		4C3AC97918EEE84D008764A0 /* CYLeftRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLeftRootViewController.m; sourceTree = "<group>"; };
+		4C3AC97A18EEE84D008764A0 /* CYLeftRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLeftRootViewController.xib; sourceTree = "<group>"; };
+		4C3AC97D18EEF010008764A0 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		4C3AC97E18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		4C3AC98318EF1568008764A0 /* UINavigationController+IOS_6_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+IOS_6_1.h"; sourceTree = "<group>"; };
+		4C3AC98418EF1568008764A0 /* UINavigationController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+IOS_6_1.m"; sourceTree = "<group>"; };
+		4C3AC98618EF15B4008764A0 /* UITabBarController+IOS_6_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+IOS_6_1.h"; sourceTree = "<group>"; };
+		4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+IOS_6_1.m"; sourceTree = "<group>"; };
+		4C3AC98918EF1633008764A0 /* UIViewController+IOS_6_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IOS_6_1.h"; sourceTree = "<group>"; };
+		4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IOS_6_1.m"; sourceTree = "<group>"; };
+		4C3AC99218EF26BB008764A0 /* CYBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBookViewController.h; sourceTree = "<group>"; };
+		4C3AC99318EF26BB008764A0 /* CYBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBookViewController.m; sourceTree = "<group>"; };
+		4C3AC99418EF26BB008764A0 /* CYBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYBookViewController.xib; sourceTree = "<group>"; };
 		F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9119A2B182E8A9100460BE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F9119A2C182E8A9100460BE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -408,8 +430,8 @@
 		F993B7A2182E87AA00E6B111 /* ITTXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibView.m; sourceTree = "<group>"; };
 		F993B7A3182E87AA00E6B111 /* ITTXibViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTXibViewUtils.h; sourceTree = "<group>"; };
 		F993B7A4182E87AA00E6B111 /* ITTXibViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibViewUtils.m; sourceTree = "<group>"; };
-		F993B7A6182E87AA00E6B111 /* CYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRootViewController.h; sourceTree = "<group>"; };
-		F993B7A7182E87AA00E6B111 /* CYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRootViewController.m; sourceTree = "<group>"; };
+		F993B7A6182E87AA00E6B111 /* CYCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCenterViewController.h; sourceTree = "<group>"; };
+		F993B7A7182E87AA00E6B111 /* CYCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCenterViewController.m; sourceTree = "<group>"; };
 		F993B817182E89CD00E6B111 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F993B819182E89D500E6B111 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F993B81B182E89E000E6B111 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
@@ -466,8 +488,23 @@
 				4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */,
 				4C3AC97218EEC7C7008764A0 /* UIViewController+MMDrawerController.h */,
 				4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */,
+				4C3AC97D18EEF010008764A0 /* MMExampleDrawerVisualStateManager.h */,
+				4C3AC97E18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m */,
 			);
 			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		4C3AC99118EF2685008764A0 /* Catograys */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AC98318EF1568008764A0 /* UINavigationController+IOS_6_1.h */,
+				4C3AC98418EF1568008764A0 /* UINavigationController+IOS_6_1.m */,
+				4C3AC98618EF15B4008764A0 /* UITabBarController+IOS_6_1.h */,
+				4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */,
+				4C3AC98918EF1633008764A0 /* UIViewController+IOS_6_1.h */,
+				4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */,
+			);
+			name = Catograys;
 			sourceTree = "<group>";
 		};
 		F993B670182E868D00E6B111 = {
@@ -951,8 +988,15 @@
 		F993B7A5182E87AA00E6B111 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F993B7A6182E87AA00E6B111 /* CYRootViewController.h */,
-				F993B7A7182E87AA00E6B111 /* CYRootViewController.m */,
+				4C3AC99118EF2685008764A0 /* Catograys */,
+				F993B7A6182E87AA00E6B111 /* CYCenterViewController.h */,
+				F993B7A7182E87AA00E6B111 /* CYCenterViewController.m */,
+				4C3AC97818EEE84D008764A0 /* CYLeftRootViewController.h */,
+				4C3AC97918EEE84D008764A0 /* CYLeftRootViewController.m */,
+				4C3AC97A18EEE84D008764A0 /* CYLeftRootViewController.xib */,
+				4C3AC99218EF26BB008764A0 /* CYBookViewController.h */,
+				4C3AC99318EF26BB008764A0 /* CYBookViewController.m */,
+				4C3AC99418EF26BB008764A0 /* CYBookViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1047,6 +1091,7 @@
 				F993B7CA182E87AA00E6B111 /* grayArrow@2x.png in Resources */,
 				F993B7CB182E87AA00E6B111 /* Localizable.strings in Resources */,
 				F993B7C7182E87AA00E6B111 /* blueArrow.png in Resources */,
+				4C3AC97C18EEE84D008764A0 /* CYLeftRootViewController.xib in Resources */,
 				F993B7C6182E87AA00E6B111 /* blackArrow@2x.png in Resources */,
 				F993B7CC182E87AA00E6B111 /* whiteArrow.png in Resources */,
 				F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */,
@@ -1055,6 +1100,7 @@
 				F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */,
 				F993B7C9182E87AA00E6B111 /* grayArrow.png in Resources */,
 				F993B68F182E868D00E6B111 /* Images.xcassets in Resources */,
+				4C3AC99618EF26BB008764A0 /* CYBookViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,6 +1143,7 @@
 				F993B7F7182E87AA00E6B111 /* ASIS3BucketObject.m in Sources */,
 				F993B7AE182E87AA00E6B111 /* UIAlertView+ITTAdditions.m in Sources */,
 				F993B7EB182E87AA00E6B111 /* ASIFormDataRequest.m in Sources */,
+				4C3AC98B18EF1633008764A0 /* UIViewController+IOS_6_1.m in Sources */,
 				F993B7DF182E87AA00E6B111 /* AFHTTPRequestOperation.m in Sources */,
 				F993B7EC182E87AA00E6B111 /* ASIHTTPRequest.m in Sources */,
 				F993B803182E87AA00E6B111 /* SDWebImageDownloader.m in Sources */,
@@ -1125,6 +1172,7 @@
 				F993B813182E87AA00E6B111 /* UIUtil.m in Sources */,
 				F993B7BA182E87AA00E6B111 /* ITTUserDefaultCacheDao.m in Sources */,
 				F993B7E0182E87AA00E6B111 /* AFImageRequestOperation.m in Sources */,
+				4C3AC99518EF26BB008764A0 /* CYBookViewController.m in Sources */,
 				F993B7B1182E87AA00E6B111 /* UIDevice+ITTAdditions.m in Sources */,
 				F993B7FA182E87AA00E6B111 /* ASIS3Request.m in Sources */,
 				F993B7D7182E87AA00E6B111 /* ITTMaskActivityView.m in Sources */,
@@ -1135,6 +1183,7 @@
 				F993B809182E87AA00E6B111 /* UIImage+MultiFormat.m in Sources */,
 				F993B7E7182E87AA00E6B111 /* ASIAuthenticationDialog.m in Sources */,
 				F993B811182E87AA00E6B111 /* RandomUtil.m in Sources */,
+				4C3AC98818EF15B4008764A0 /* UITabBarController+IOS_6_1.m in Sources */,
 				F993B7EF182E87AA00E6B111 /* ASICloudFilesCDNRequest.m in Sources */,
 				F993B7B7182E87AA00E6B111 /* ITTCacheDao.m in Sources */,
 				F993B80B182E87AA00E6B111 /* AddressBookUtils.m in Sources */,
@@ -1143,6 +1192,7 @@
 				F993B7D0182E87AA00E6B111 /* ITTFileModel.m in Sources */,
 				F993B7DB182E87AA00E6B111 /* ITTRequestJsonDataHandler.m in Sources */,
 				F993B7B3182E87AA00E6B111 /* UIImage+ITTAdditions.m in Sources */,
+				4C3AC97F18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m in Sources */,
 				F993B7FC182E87AA00E6B111 /* JSONKit.m in Sources */,
 				F993B7AB182E87AA00E6B111 /* NSDate+ITTAdditions.m in Sources */,
 				F993B7AD182E87AA00E6B111 /* NSString+ITTAdditions.m in Sources */,
@@ -1155,7 +1205,7 @@
 				F993B7EE182E87AA00E6B111 /* ASINetworkQueue.m in Sources */,
 				F993B810182E87AA00E6B111 /* LocaleUtils.m in Sources */,
 				F993B7FF182E87AA00E6B111 /* NSData+GIF.m in Sources */,
-				F993B816182E87AA00E6B111 /* CYRootViewController.m in Sources */,
+				F993B816182E87AA00E6B111 /* CYCenterViewController.m in Sources */,
 				F993B7E9182E87AA00E6B111 /* ASIDataDecompressor.m in Sources */,
 				F993B7BF182E87AA00E6B111 /* ITTGobalPaths.m in Sources */,
 				F993B80F182E87AA00E6B111 /* CYUsefulCFunctionSets.m in Sources */,
@@ -1167,6 +1217,7 @@
 				F993B7A9182E87AA00E6B111 /* ITTCommonFunctions.m in Sources */,
 				F993B7F4182E87AA00E6B111 /* ASICloudFilesObjectRequest.m in Sources */,
 				F993B7DD182E87AA00E6B111 /* TestDataRequest.m in Sources */,
+				4C3AC97B18EEE84D008764A0 /* CYLeftRootViewController.m in Sources */,
 				F993B689182E868D00E6B111 /* main.m in Sources */,
 				F993B7F2182E87AA00E6B111 /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
 				F993B7B5182E87AA00E6B111 /* UITextField+ITTAdditions.m in Sources */,
@@ -1177,6 +1228,7 @@
 				F993B7C3182E87AA00E6B111 /* ITTPullTableView.m in Sources */,
 				F993B7F6182E87AA00E6B111 /* ASIS3Bucket.m in Sources */,
 				F993B7AF182E87AA00E6B111 /* UIButton+ITTAdditions.m in Sources */,
+				4C3AC98518EF1568008764A0 /* UINavigationController+IOS_6_1.m in Sources */,
 				F993B807182E87AA00E6B111 /* UIButton+WebCache.m in Sources */,
 				F993B7C2182E87AA00E6B111 /* ITTMessageInterceptor.m in Sources */,
 			);
@@ -1291,6 +1343,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jiMoApp/jiMoApp-Prefix.pch";
 				INFOPLIST_FILE = "jiMoApp/jiMoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1304,6 +1357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jiMoApp/jiMoApp-Prefix.pch";
 				INFOPLIST_FILE = "jiMoApp/jiMoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

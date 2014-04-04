@@ -6,13 +6,12 @@
 //  Copyright (c) 2013年 chengYan. All rights reserved.
 //
 
-#import "CYRootViewController.h"
-
-@interface CYRootViewController ()
+#import "CYCenterViewController.h"
+@interface CYCenterViewController ()
 
 @end
 
-@implementation CYRootViewController
+@implementation CYCenterViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,17 +25,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [btn setFrame:CGRectMake(20, 20, 40, 40)];
-    [btn setTitle:@"A" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-	// Do any additional setup after loading the view.
-}
-
-- (void)btnAction:(id)sender
-{
-    NSLog(@"hello");
+    self.title = @"首页";
+    UINavigationBar *navigationBar = [self.navigationController navigationBar];
+    if (OSVersionAtLeastIOS_7()) {
+        [navigationBar setBarTintColor:[UIColor redColor]];
+    }
+    self.view.backgroundColor = [UIColor whiteColor];
+	
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,5 +40,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

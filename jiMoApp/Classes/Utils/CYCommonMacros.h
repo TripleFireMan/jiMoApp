@@ -59,5 +59,11 @@
 #define USER_DEFAULT [NSUserDefaults standardUserDefaults]
 #define FILE_MANAGER [NSFileManager defaultManager]
 
+/*!
+ * restorationKeys
+ */
 
+#define CY_CENTER_ROOT_RESTORATION_KEY  @"CY_CENTER_ROOT_RESTORATION_KEY"
+#define CY_LEFT_ROOT_RESTORATION_KEY    @"CY_LEFT_ROOT_RESTORATION_KEY"
+#define CY_LEFT_RESTORATION_KEY         @"CY_LEFT_RESTORATION_KEY"
 #endif

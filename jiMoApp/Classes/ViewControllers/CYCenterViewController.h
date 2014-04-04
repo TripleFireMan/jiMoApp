@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYRootViewController : UIViewController
+@interface CYCenterViewController : UIViewController
 
 @end
