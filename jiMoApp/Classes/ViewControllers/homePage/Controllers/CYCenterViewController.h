@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 chengYan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CYBasicViewController.h"
 
-@interface CYCenterViewController : UIViewController
+@interface CYCenterViewController : CYBasicViewController
 
 @end

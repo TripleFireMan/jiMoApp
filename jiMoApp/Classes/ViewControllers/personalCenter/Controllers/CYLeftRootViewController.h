@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 chengYan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CYBasicViewController.h"
 #import "UIViewController+MMDrawerController.h"
-@interface CYLeftRootViewController : UIViewController
+@interface CYLeftRootViewController : CYBasicViewController
 
 @end

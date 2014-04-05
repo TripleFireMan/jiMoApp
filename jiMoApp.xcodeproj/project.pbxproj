@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1E679818F052C700BFB8BD /* CYLeftRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E679618F052C700BFB8BD /* CYLeftRootViewController.m */; };
+		4C1E679918F052C700BFB8BD /* CYLeftRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E679718F052C700BFB8BD /* CYLeftRootViewController.xib */; };
+		4C1E67A018F052D900BFB8BD /* CYCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E679D18F052D900BFB8BD /* CYCenterViewController.m */; };
+		4C1E67A318F0532300BFB8BD /* CYPersonalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67A218F0532300BFB8BD /* CYPersonalItem.m */; };
+		4C1E67A718F0564B00BFB8BD /* CYPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67A518F0564B00BFB8BD /* CYPersonalCell.m */; };
+		4C1E67A818F0564B00BFB8BD /* CYPersonalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E67A618F0564B00BFB8BD /* CYPersonalCell.xib */; };
+		4C1E67BB18F05B8600BFB8BD /* CYDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67B918F05B8600BFB8BD /* CYDownLoadViewController.m */; };
+		4C1E67BC18F05B8600BFB8BD /* CYDownLoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E67BA18F05B8600BFB8BD /* CYDownLoadViewController.xib */; };
+		4C1E67C018F05B9F00BFB8BD /* CYLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67BE18F05B9F00BFB8BD /* CYLocalViewController.m */; };
+		4C1E67C118F05B9F00BFB8BD /* CYLocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E67BF18F05B9F00BFB8BD /* CYLocalViewController.xib */; };
+		4C1E67C518F05BBA00BFB8BD /* CYSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67C318F05BBA00BFB8BD /* CYSettingViewController.m */; };
+		4C1E67C618F05BBA00BFB8BD /* CYSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E67C418F05BBA00BFB8BD /* CYSettingViewController.xib */; };
+		4C1E67C918F05E1600BFB8BD /* CYBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */; };
 		4C3AC97418EEC7C7008764A0 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */; };
 		4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */; };
 		4C3AC97618EEC7C7008764A0 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */; };
 		4C3AC97718EEC7C7008764A0 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */; };
-		4C3AC97B18EEE84D008764A0 /* CYLeftRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97918EEE84D008764A0 /* CYLeftRootViewController.m */; };
-		4C3AC97C18EEE84D008764A0 /* CYLeftRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AC97A18EEE84D008764A0 /* CYLeftRootViewController.xib */; };
 		4C3AC97F18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97E18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m */; };
 		4C3AC98518EF1568008764A0 /* UINavigationController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98418EF1568008764A0 /* UINavigationController+IOS_6_1.m */; };
 		4C3AC98818EF15B4008764A0 /* UITabBarController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */; };
 		4C3AC98B18EF1633008764A0 /* UIViewController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */; };
-		4C3AC99518EF26BB008764A0 /* CYBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC99318EF26BB008764A0 /* CYBookViewController.m */; };
-		4C3AC99618EF26BB008764A0 /* CYBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AC99418EF26BB008764A0 /* CYBookViewController.xib */; };
 		F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */; };
 		F9119A2E182E8A9100460BE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2B182E8A9100460BE6 /* Default.png */; };
 		F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2C182E8A9100460BE6 /* Default@2x.png */; };
@@ -141,7 +150,6 @@
 		F993B813182E87AA00E6B111 /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B79F182E87AA00E6B111 /* UIUtil.m */; };
 		F993B814182E87AA00E6B111 /* ITTXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A2182E87AA00E6B111 /* ITTXibView.m */; };
 		F993B815182E87AA00E6B111 /* ITTXibViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A4182E87AA00E6B111 /* ITTXibViewUtils.m */; };
-		F993B816182E87AA00E6B111 /* CYCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F993B7A7182E87AA00E6B111 /* CYCenterViewController.m */; };
 		F993B818182E89CD00E6B111 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B817182E89CD00E6B111 /* MapKit.framework */; };
 		F993B81A182E89D500E6B111 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B819182E89D500E6B111 /* ImageIO.framework */; };
 		F993B81C182E89E000E6B111 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F993B81B182E89E000E6B111 /* libz.1.2.5.dylib */; };
@@ -164,6 +172,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1E679518F052C700BFB8BD /* CYLeftRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLeftRootViewController.h; sourceTree = "<group>"; };
+		4C1E679618F052C700BFB8BD /* CYLeftRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLeftRootViewController.m; sourceTree = "<group>"; };
+		4C1E679718F052C700BFB8BD /* CYLeftRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLeftRootViewController.xib; sourceTree = "<group>"; };
+		4C1E679C18F052D900BFB8BD /* CYCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCenterViewController.h; sourceTree = "<group>"; };
+		4C1E679D18F052D900BFB8BD /* CYCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCenterViewController.m; sourceTree = "<group>"; };
+		4C1E67A118F0532300BFB8BD /* CYPersonalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPersonalItem.h; sourceTree = "<group>"; };
+		4C1E67A218F0532300BFB8BD /* CYPersonalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPersonalItem.m; sourceTree = "<group>"; };
+		4C1E67A418F0564B00BFB8BD /* CYPersonalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPersonalCell.h; sourceTree = "<group>"; };
+		4C1E67A518F0564B00BFB8BD /* CYPersonalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPersonalCell.m; sourceTree = "<group>"; };
+		4C1E67A618F0564B00BFB8BD /* CYPersonalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYPersonalCell.xib; sourceTree = "<group>"; };
+		4C1E67B818F05B8600BFB8BD /* CYDownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDownLoadViewController.h; sourceTree = "<group>"; };
+		4C1E67B918F05B8600BFB8BD /* CYDownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDownLoadViewController.m; sourceTree = "<group>"; };
+		4C1E67BA18F05B8600BFB8BD /* CYDownLoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYDownLoadViewController.xib; sourceTree = "<group>"; };
+		4C1E67BD18F05B9F00BFB8BD /* CYLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLocalViewController.h; sourceTree = "<group>"; };
+		4C1E67BE18F05B9F00BFB8BD /* CYLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLocalViewController.m; sourceTree = "<group>"; };
+		4C1E67BF18F05B9F00BFB8BD /* CYLocalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLocalViewController.xib; sourceTree = "<group>"; };
+		4C1E67C218F05BBA00BFB8BD /* CYSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYSettingViewController.h; sourceTree = "<group>"; };
+		4C1E67C318F05BBA00BFB8BD /* CYSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYSettingViewController.m; sourceTree = "<group>"; };
+		4C1E67C418F05BBA00BFB8BD /* CYSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYSettingViewController.xib; sourceTree = "<group>"; };
+		4C1E67C718F05E1600BFB8BD /* CYBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBasicViewController.h; sourceTree = "<group>"; };
+		4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBasicViewController.m; sourceTree = "<group>"; };
 		4C3AC96B18EEC7C7008764A0 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		4C3AC96D18EEC7C7008764A0 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
@@ -173,9 +202,6 @@
 		4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
 		4C3AC97218EEC7C7008764A0 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
 		4C3AC97318EEC7C7008764A0 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
-		4C3AC97818EEE84D008764A0 /* CYLeftRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLeftRootViewController.h; sourceTree = "<group>"; };
-		4C3AC97918EEE84D008764A0 /* CYLeftRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLeftRootViewController.m; sourceTree = "<group>"; };
-		4C3AC97A18EEE84D008764A0 /* CYLeftRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLeftRootViewController.xib; sourceTree = "<group>"; };
 		4C3AC97D18EEF010008764A0 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
 		4C3AC97E18EEF010008764A0 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
 		4C3AC98318EF1568008764A0 /* UINavigationController+IOS_6_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+IOS_6_1.h"; sourceTree = "<group>"; };
@@ -184,9 +210,6 @@
 		4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+IOS_6_1.m"; sourceTree = "<group>"; };
 		4C3AC98918EF1633008764A0 /* UIViewController+IOS_6_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IOS_6_1.h"; sourceTree = "<group>"; };
 		4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IOS_6_1.m"; sourceTree = "<group>"; };
-		4C3AC99218EF26BB008764A0 /* CYBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBookViewController.h; sourceTree = "<group>"; };
-		4C3AC99318EF26BB008764A0 /* CYBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBookViewController.m; sourceTree = "<group>"; };
-		4C3AC99418EF26BB008764A0 /* CYBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYBookViewController.xib; sourceTree = "<group>"; };
 		F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9119A2B182E8A9100460BE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F9119A2C182E8A9100460BE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -430,8 +453,6 @@
 		F993B7A2182E87AA00E6B111 /* ITTXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibView.m; sourceTree = "<group>"; };
 		F993B7A3182E87AA00E6B111 /* ITTXibViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITTXibViewUtils.h; sourceTree = "<group>"; };
 		F993B7A4182E87AA00E6B111 /* ITTXibViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITTXibViewUtils.m; sourceTree = "<group>"; };
-		F993B7A6182E87AA00E6B111 /* CYCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCenterViewController.h; sourceTree = "<group>"; };
-		F993B7A7182E87AA00E6B111 /* CYCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCenterViewController.m; sourceTree = "<group>"; };
 		F993B817182E89CD00E6B111 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F993B819182E89D500E6B111 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F993B81B182E89E000E6B111 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
@@ -476,6 +497,180 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1E678B18F0527600BFB8BD /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E679418F052C700BFB8BD /* Controllers */,
+				4C1E678C18F0527600BFB8BD /* Models */,
+				4C1E679118F0527600BFB8BD /* Views */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		4C1E678C18F0527600BFB8BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67A118F0532300BFB8BD /* CYPersonalItem.h */,
+				4C1E67A218F0532300BFB8BD /* CYPersonalItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1E679118F0527600BFB8BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67A418F0564B00BFB8BD /* CYPersonalCell.h */,
+				4C1E67A518F0564B00BFB8BD /* CYPersonalCell.m */,
+				4C1E67A618F0564B00BFB8BD /* CYPersonalCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C1E679418F052C700BFB8BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E679518F052C700BFB8BD /* CYLeftRootViewController.h */,
+				4C1E679618F052C700BFB8BD /* CYLeftRootViewController.m */,
+				4C1E679718F052C700BFB8BD /* CYLeftRootViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C1E679A18F052D900BFB8BD /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E679B18F052D900BFB8BD /* Controllers */,
+				4C1E679E18F052D900BFB8BD /* Models */,
+				4C1E679F18F052D900BFB8BD /* Views */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		4C1E679B18F052D900BFB8BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E679C18F052D900BFB8BD /* CYCenterViewController.h */,
+				4C1E679D18F052D900BFB8BD /* CYCenterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C1E679E18F052D900BFB8BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1E679F18F052D900BFB8BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C1E67AC18F05B3B00BFB8BD /* DownloadBooks */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67AD18F05B3B00BFB8BD /* Controllers */,
+				4C1E67AE18F05B3B00BFB8BD /* Models */,
+				4C1E67AF18F05B3B00BFB8BD /* Views */,
+			);
+			path = DownloadBooks;
+			sourceTree = "<group>";
+		};
+		4C1E67AD18F05B3B00BFB8BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67B818F05B8600BFB8BD /* CYDownLoadViewController.h */,
+				4C1E67B918F05B8600BFB8BD /* CYDownLoadViewController.m */,
+				4C1E67BA18F05B8600BFB8BD /* CYDownLoadViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C1E67AE18F05B3B00BFB8BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1E67AF18F05B3B00BFB8BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C1E67B018F05B3B00BFB8BD /* LocalBooks */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67B118F05B3B00BFB8BD /* Controllers */,
+				4C1E67B218F05B3B00BFB8BD /* Models */,
+				4C1E67B318F05B3B00BFB8BD /* Views */,
+			);
+			path = LocalBooks;
+			sourceTree = "<group>";
+		};
+		4C1E67B118F05B3B00BFB8BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67BD18F05B9F00BFB8BD /* CYLocalViewController.h */,
+				4C1E67BE18F05B9F00BFB8BD /* CYLocalViewController.m */,
+				4C1E67BF18F05B9F00BFB8BD /* CYLocalViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C1E67B218F05B3B00BFB8BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1E67B318F05B3B00BFB8BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C1E67B418F05B3B00BFB8BD /* SystemSetting */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67B518F05B3B00BFB8BD /* Controllers */,
+				4C1E67B618F05B3B00BFB8BD /* Models */,
+				4C1E67B718F05B3B00BFB8BD /* Views */,
+			);
+			path = SystemSetting;
+			sourceTree = "<group>";
+		};
+		4C1E67B518F05B3B00BFB8BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E67C218F05BBA00BFB8BD /* CYSettingViewController.h */,
+				4C1E67C318F05BBA00BFB8BD /* CYSettingViewController.m */,
+				4C1E67C418F05BBA00BFB8BD /* CYSettingViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C1E67B618F05B3B00BFB8BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1E67B718F05B3B00BFB8BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4C3AC96A18EEC7C7008764A0 /* MMDrawerController */ = {
 			isa = PBXGroup;
 			children = (
@@ -988,15 +1183,14 @@
 		F993B7A5182E87AA00E6B111 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4C1E67AC18F05B3B00BFB8BD /* DownloadBooks */,
+				4C1E67B018F05B3B00BFB8BD /* LocalBooks */,
+				4C1E67B418F05B3B00BFB8BD /* SystemSetting */,
+				4C1E679A18F052D900BFB8BD /* HomePage */,
+				4C1E678B18F0527600BFB8BD /* PersonalCenter */,
 				4C3AC99118EF2685008764A0 /* Catograys */,
-				F993B7A6182E87AA00E6B111 /* CYCenterViewController.h */,
-				F993B7A7182E87AA00E6B111 /* CYCenterViewController.m */,
-				4C3AC97818EEE84D008764A0 /* CYLeftRootViewController.h */,
-				4C3AC97918EEE84D008764A0 /* CYLeftRootViewController.m */,
-				4C3AC97A18EEE84D008764A0 /* CYLeftRootViewController.xib */,
-				4C3AC99218EF26BB008764A0 /* CYBookViewController.h */,
-				4C3AC99318EF26BB008764A0 /* CYBookViewController.m */,
-				4C3AC99418EF26BB008764A0 /* CYBookViewController.xib */,
+				4C1E67C718F05E1600BFB8BD /* CYBasicViewController.h */,
+				4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1086,21 +1280,24 @@
 			files = (
 				F993B7C8182E87AA00E6B111 /* blueArrow@2x.png in Resources */,
 				F993B687182E868D00E6B111 /* InfoPlist.strings in Resources */,
+				4C1E67BC18F05B8600BFB8BD /* CYDownLoadViewController.xib in Resources */,
 				F993B7C5182E87AA00E6B111 /* blackArrow.png in Resources */,
 				F993B7CD182E87AA00E6B111 /* whiteArrow@2x.png in Resources */,
+				4C1E67C618F05BBA00BFB8BD /* CYSettingViewController.xib in Resources */,
 				F993B7CA182E87AA00E6B111 /* grayArrow@2x.png in Resources */,
 				F993B7CB182E87AA00E6B111 /* Localizable.strings in Resources */,
 				F993B7C7182E87AA00E6B111 /* blueArrow.png in Resources */,
-				4C3AC97C18EEE84D008764A0 /* CYLeftRootViewController.xib in Resources */,
 				F993B7C6182E87AA00E6B111 /* blackArrow@2x.png in Resources */,
+				4C1E679918F052C700BFB8BD /* CYLeftRootViewController.xib in Resources */,
 				F993B7CC182E87AA00E6B111 /* whiteArrow.png in Resources */,
 				F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */,
+				4C1E67C118F05B9F00BFB8BD /* CYLocalViewController.xib in Resources */,
 				F993B7D8182E87AA00E6B111 /* ITTMaskActivityView.xib in Resources */,
 				F9119A2E182E8A9100460BE6 /* Default.png in Resources */,
 				F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */,
 				F993B7C9182E87AA00E6B111 /* grayArrow.png in Resources */,
+				4C1E67A818F0564B00BFB8BD /* CYPersonalCell.xib in Resources */,
 				F993B68F182E868D00E6B111 /* Images.xcassets in Resources */,
-				4C3AC99618EF26BB008764A0 /* CYBookViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1118,10 +1315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1E67C518F05BBA00BFB8BD /* CYSettingViewController.m in Sources */,
 				F993B802182E87AA00E6B111 /* SDWebImageDecoder.m in Sources */,
 				F993B7E4182E87AA00E6B111 /* AFURLConnectionOperation.m in Sources */,
 				F993B7F9182E87AA00E6B111 /* ASIS3ObjectRequest.m in Sources */,
 				F993B7F3182E87AA00E6B111 /* ASICloudFilesObject.m in Sources */,
+				4C1E67C018F05B9F00BFB8BD /* CYLocalViewController.m in Sources */,
 				F993B7FD182E87AA00E6B111 /* Reachability.m in Sources */,
 				F993B801182E87AA00E6B111 /* SDWebImageCompat.m in Sources */,
 				F993B7B4182E87AA00E6B111 /* UILabel+ITTAdditions.m in Sources */,
@@ -1130,6 +1329,7 @@
 				F993B7BD182E87AA00E6B111 /* ITTImageView.m in Sources */,
 				F993B7DA182E87AA00E6B111 /* ITTRequestDataHandler.m in Sources */,
 				F993B7D1182E87AA00E6B111 /* DemoDataRequest.m in Sources */,
+				4C1E67A718F0564B00BFB8BD /* CYPersonalCell.m in Sources */,
 				F993B7D9182E87AA00E6B111 /* ITTNetworkTrafficManager.m in Sources */,
 				F993B7C4182E87AA00E6B111 /* ITTRefreshTableHeaderView.m in Sources */,
 				F993B7CF182E87AA00E6B111 /* ITTBaseModelObject.m in Sources */,
@@ -1162,8 +1362,11 @@
 				F993B7D2182E87AA00E6B111 /* ITTAFNBaseDataRequest.m in Sources */,
 				F993B7DC182E87AA00E6B111 /* ITTRequestResult.m in Sources */,
 				F993B805182E87AA00E6B111 /* SDWebImageManager.m in Sources */,
+				4C1E679818F052C700BFB8BD /* CYLeftRootViewController.m in Sources */,
 				F993B68D182E868D00E6B111 /* CYAppDelegate.m in Sources */,
+				4C1E67A318F0532300BFB8BD /* CYPersonalItem.m in Sources */,
 				F993B7D4182E87AA00E6B111 /* ITTASIBaseDataRequest.m in Sources */,
+				4C1E67BB18F05B8600BFB8BD /* CYDownLoadViewController.m in Sources */,
 				F993B7F0182E87AA00E6B111 /* ASICloudFilesContainer.m in Sources */,
 				F993B7EA182E87AA00E6B111 /* ASIDownloadCache.m in Sources */,
 				F993B7AC182E87AA00E6B111 /* NSLocale+ITTAdditions.m in Sources */,
@@ -1172,7 +1375,6 @@
 				F993B813182E87AA00E6B111 /* UIUtil.m in Sources */,
 				F993B7BA182E87AA00E6B111 /* ITTUserDefaultCacheDao.m in Sources */,
 				F993B7E0182E87AA00E6B111 /* AFImageRequestOperation.m in Sources */,
-				4C3AC99518EF26BB008764A0 /* CYBookViewController.m in Sources */,
 				F993B7B1182E87AA00E6B111 /* UIDevice+ITTAdditions.m in Sources */,
 				F993B7FA182E87AA00E6B111 /* ASIS3Request.m in Sources */,
 				F993B7D7182E87AA00E6B111 /* ITTMaskActivityView.m in Sources */,
@@ -1187,6 +1389,7 @@
 				F993B7EF182E87AA00E6B111 /* ASICloudFilesCDNRequest.m in Sources */,
 				F993B7B7182E87AA00E6B111 /* ITTCacheDao.m in Sources */,
 				F993B80B182E87AA00E6B111 /* AddressBookUtils.m in Sources */,
+				4C1E67A018F052D900BFB8BD /* CYCenterViewController.m in Sources */,
 				F993B7BC182E87AA00E6B111 /* ITTImageDataOperation.m in Sources */,
 				F993B7CE182E87AA00E6B111 /* DemoModel.m in Sources */,
 				F993B7D0182E87AA00E6B111 /* ITTFileModel.m in Sources */,
@@ -1205,7 +1408,7 @@
 				F993B7EE182E87AA00E6B111 /* ASINetworkQueue.m in Sources */,
 				F993B810182E87AA00E6B111 /* LocaleUtils.m in Sources */,
 				F993B7FF182E87AA00E6B111 /* NSData+GIF.m in Sources */,
-				F993B816182E87AA00E6B111 /* CYCenterViewController.m in Sources */,
+				4C1E67C918F05E1600BFB8BD /* CYBasicViewController.m in Sources */,
 				F993B7E9182E87AA00E6B111 /* ASIDataDecompressor.m in Sources */,
 				F993B7BF182E87AA00E6B111 /* ITTGobalPaths.m in Sources */,
 				F993B80F182E87AA00E6B111 /* CYUsefulCFunctionSets.m in Sources */,
@@ -1217,7 +1420,6 @@
 				F993B7A9182E87AA00E6B111 /* ITTCommonFunctions.m in Sources */,
 				F993B7F4182E87AA00E6B111 /* ASICloudFilesObjectRequest.m in Sources */,
 				F993B7DD182E87AA00E6B111 /* TestDataRequest.m in Sources */,
-				4C3AC97B18EEE84D008764A0 /* CYLeftRootViewController.m in Sources */,
 				F993B689182E868D00E6B111 /* main.m in Sources */,
 				F993B7F2182E87AA00E6B111 /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
 				F993B7B5182E87AA00E6B111 /* UITextField+ITTAdditions.m in Sources */,

@@ -25,14 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"首页";
-    UINavigationBar *navigationBar = [self.navigationController navigationBar];
-    if (OSVersionAtLeastIOS_7()) {
-        [navigationBar setBarTintColor:[UIColor redColor]];
-    }
-    self.view.backgroundColor = [UIColor whiteColor];
-	
-    
+    self.title = @"一米阅读";
 }
 
 - (void)didReceiveMemoryWarning

@@ -29,14 +29,11 @@
     
     [centerRootVC setRestorationIdentifier:CY_CENTER_ROOT_RESTORATION_KEY];
     
-    if (OSVersionAtLeastIOS_7()) {
-        UINavigationController *leftNavi = [[UINavigationController alloc]initWithRootViewController:leftRootVC];
-        [leftNavi setRestorationIdentifier:CY_LEFT_ROOT_RESTORATION_KEY];
-        self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNavi leftDrawerViewController:leftNavi];
-        [self.drawerController setShowsShadow:YES];
-    }else{
-        self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNavi leftDrawerViewController:leftRootVC];
-    }
+    UINavigationController *leftNavi = [[UINavigationController alloc]initWithRootViewController:leftRootVC];
+    [leftNavi setRestorationIdentifier:CY_LEFT_ROOT_RESTORATION_KEY];
+    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNavi leftDrawerViewController:leftNavi];
+    [self.drawerController setShowsShadow:YES];
+    
     [self.drawerController setRestorationIdentifier:@"MMDrawer"];
     [self.drawerController setMaximumLeftDrawerWidth:200.f];
     [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
