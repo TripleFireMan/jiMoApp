@@ -20,6 +20,6 @@
 
 - (NSString*)md5;
 - (NSString*)encodeUrl;
-
+- (BOOL)isEmptyOrNull;
 @end
 

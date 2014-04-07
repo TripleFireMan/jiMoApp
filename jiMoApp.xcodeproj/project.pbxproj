@@ -20,6 +20,8 @@
 		4C1E67C518F05BBA00BFB8BD /* CYSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67C318F05BBA00BFB8BD /* CYSettingViewController.m */; };
 		4C1E67C618F05BBA00BFB8BD /* CYSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E67C418F05BBA00BFB8BD /* CYSettingViewController.xib */; };
 		4C1E67C918F05E1600BFB8BD /* CYBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */; };
+		4C1FB4FA18F0F2E000F8E527 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1FB4F918F0F2E000F8E527 /* Accelerate.framework */; };
+		4C1FB4FD18F10BD600F8E527 /* CYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FB4FC18F10BD600F8E527 /* CYFileManager.m */; };
 		4C3AC97418EEC7C7008764A0 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */; };
 		4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */; };
 		4C3AC97618EEC7C7008764A0 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */; };
@@ -193,6 +195,9 @@
 		4C1E67C418F05BBA00BFB8BD /* CYSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYSettingViewController.xib; sourceTree = "<group>"; };
 		4C1E67C718F05E1600BFB8BD /* CYBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBasicViewController.h; sourceTree = "<group>"; };
 		4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBasicViewController.m; sourceTree = "<group>"; };
+		4C1FB4F918F0F2E000F8E527 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4C1FB4FB18F10BD600F8E527 /* CYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFileManager.h; sourceTree = "<group>"; };
+		4C1FB4FC18F10BD600F8E527 /* CYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFileManager.m; sourceTree = "<group>"; };
 		4C3AC96B18EEC7C7008764A0 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		4C3AC96D18EEC7C7008764A0 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
@@ -470,6 +475,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1FB4FA18F0F2E000F8E527 /* Accelerate.framework in Frameworks */,
 				F993B826182E8A0800E6B111 /* CFNetwork.framework in Frameworks */,
 				F993B824182E8A0200E6B111 /* SystemConfiguration.framework in Frameworks */,
 				F993B822182E89FA00E6B111 /* MobileCoreServices.framework in Frameworks */,
@@ -726,6 +732,7 @@
 		F993B67B182E868D00E6B111 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C1FB4F918F0F2E000F8E527 /* Accelerate.framework */,
 				F993B825182E8A0800E6B111 /* CFNetwork.framework */,
 				F993B823182E8A0200E6B111 /* SystemConfiguration.framework */,
 				F993B821182E89FA00E6B111 /* MobileCoreServices.framework */,
@@ -912,6 +919,8 @@
 				F993B6FC182E87A900E6B111 /* ITTBaseModelObject.m */,
 				F993B6FD182E87A900E6B111 /* ITTFileModel.h */,
 				F993B6FE182E87A900E6B111 /* ITTFileModel.m */,
+				4C1FB4FB18F10BD600F8E527 /* CYFileManager.h */,
+				4C1FB4FC18F10BD600F8E527 /* CYFileManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1361,6 +1370,7 @@
 				F993B7E5182E87AA00E6B111 /* AFXMLRequestOperation.m in Sources */,
 				F993B7D2182E87AA00E6B111 /* ITTAFNBaseDataRequest.m in Sources */,
 				F993B7DC182E87AA00E6B111 /* ITTRequestResult.m in Sources */,
+				4C1FB4FD18F10BD600F8E527 /* CYFileManager.m in Sources */,
 				F993B805182E87AA00E6B111 /* SDWebImageManager.m in Sources */,
 				4C1E679818F052C700BFB8BD /* CYLeftRootViewController.m in Sources */,
 				F993B68D182E868D00E6B111 /* CYAppDelegate.m in Sources */,

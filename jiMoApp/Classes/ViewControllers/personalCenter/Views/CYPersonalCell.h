@@ -10,6 +10,7 @@
 
 @interface CYPersonalCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *itemNameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *selectIndicatorImageView;
 
 + (id)loadFromXib;
 @end

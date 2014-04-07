@@ -7,6 +7,10 @@
 //
 
 #import "CYCenterViewController.h"
+#import "MMDrawerBarButtonItem.h"
+#import "UIViewController+MMDrawerController.h"
+#import "UIImage+ITTAdditions.h"
+#import "CYFileManager.h"
 @interface CYCenterViewController ()
 
 @end
@@ -26,6 +30,30 @@
 {
     [super viewDidLoad];
     self.title = @"一米阅读";
+    [self initLeftBarBtnItem];
+    [CYFileManager shareInstance];
+//    [self initCenterPannelBgImageView];
+
+}
+
+- (void)initLeftBarBtnItem
+{
+    MMDrawerBarButtonItem *btnItem = [[MMDrawerBarButtonItem alloc]initWithTarget:self action:@selector(leftBarButtonItemClick:)];
+    self.navigationItem.leftBarButtonItem = btnItem;
+}
+
+- (void)leftBarButtonItemClick:(id)sender
+{
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+}
+
+- (void)initCenterPannelBgImageView
+{
+    UIImageView *bgImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, [UIScreen mainScreen].bounds.size.height)];
+    UIImage *bgImg = [UIImage imageNamed:@"leftPannelBgImage_1"];
+    bgImg = [bgImg blurryImage:bgImg withBlurLevel:0.99];
+    bgImageView.image = bgImg;
+    [self.view addSubview:bgImageView];
 }
 
 - (void)didReceiveMemoryWarning

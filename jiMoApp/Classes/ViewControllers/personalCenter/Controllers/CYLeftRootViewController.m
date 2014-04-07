@@ -13,6 +13,7 @@
 #import "CYDownLoadViewController.h"
 #import "CYLocalViewController.h"
 #import "CYSettingViewController.h"
+#import "UIImage+ITTAdditions.h"
 @interface CYLeftRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataSource;
@@ -35,13 +36,23 @@
     
     self.title = @"个人中心";
 
+    [self initBlurryImageView];
     [self initDataSource];
+}
+
+- (void)initBlurryImageView
+{
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:self.tableView.frame];
+    UIImage *image = [UIImage imageNamed:@"leftPannelBgImage_1"];
+    image = [image blurryImage:image withBlurLevel:0.9f];
+    imageView.image = image;
+    self.tableView.backgroundView = imageView;
 }
 
 - (void)initDataSource
 {
     self.dataSource = [[NSMutableArray alloc]init];
-    NSArray *itemName = [NSArray arrayWithObjects:@"回到首页",@"本地书库",@"下载书籍",@"系统设置", nil];
+    NSArray *itemName = [NSArray arrayWithObjects:@"一米阅读",@"本地书库",@"下载书籍",@"系统设置", nil];
     for (int i = 0; i<[itemName count]; i++) {
         CYPersonalItem *item = [CYPersonalItem new];
         item.itemName = itemName[i];

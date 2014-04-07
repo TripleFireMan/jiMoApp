@@ -85,5 +85,21 @@
     }
     return result;
 }
+- (BOOL)isEmptyOrNull
+{
+    if (!self) {
+        // null object
+        return true;
+    } else {
+        NSString *trimedString = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        if ([trimedString length] == 0) {
+            // empty string
+            return true;
+        } else {
+            // is neither empty nor null
+            return false;
+        }
+    }
+}
 @end
 

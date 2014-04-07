@@ -14,5 +14,5 @@
 - (UIImage *)imageCroppedWithRect:(CGRect)rect;
 - (UIImage *)imageFitInSize:(CGSize)viewsize;
 - (UIImage *)imageScaleToFillInSize:(CGSize)viewsize;
-
+- (UIImage *)blurryImage:(UIImage *)image withBlurLevel:(CGFloat)blur;
 @end
