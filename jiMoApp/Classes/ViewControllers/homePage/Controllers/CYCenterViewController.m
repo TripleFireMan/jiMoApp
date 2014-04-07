@@ -11,6 +11,7 @@
 #import "UIViewController+MMDrawerController.h"
 #import "UIImage+ITTAdditions.h"
 #import "CYFileManager.h"
+#import "CommonUtils.h"
 @interface CYCenterViewController ()
 
 @end
@@ -31,8 +32,11 @@
     [super viewDidLoad];
     self.title = @"一米阅读";
     [self initLeftBarBtnItem];
-    [CYFileManager shareInstance];
+    CYFileManager *fileManager = [CYFileManager shareInstance];
+    NSLog(@"text = %@",[fileManager getTxtPath]);
 //    [self initCenterPannelBgImageView];
+
+    [fileManager loadLocalTxtFiles];
 
 }
 

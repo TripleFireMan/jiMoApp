@@ -56,9 +56,10 @@
 #pragma mark -
 #pragma mark
 
-#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
-#define FILE_MANAGER [NSFileManager defaultManager]
-
+#define USER_DEFAULT    [NSUserDefaults standardUserDefaults]
+#define FILE_MANAGER    [NSFileManager defaultManager]
+#define DOCUMENT_PATH   [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+#define CACHE_PATH      [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)objectAtIndex:0]
 /*!
  * restorationKeys
  */

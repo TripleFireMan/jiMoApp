@@ -22,6 +22,12 @@
 		4C1E67C918F05E1600BFB8BD /* CYBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */; };
 		4C1FB4FA18F0F2E000F8E527 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1FB4F918F0F2E000F8E527 /* Accelerate.framework */; };
 		4C1FB4FD18F10BD600F8E527 /* CYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1FB4FC18F10BD600F8E527 /* CYFileManager.m */; };
+		4C1FB4FF18F2F0C100F8E527 /* localTxtFiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB4FE18F2F0C100F8E527 /* localTxtFiles.plist */; };
+		4C1FB53D18F2F69100F8E527 /* 狄仁杰断案传奇.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB52F18F2F69100F8E527 /* 狄仁杰断案传奇.txt */; };
+		4C1FB53E18F2F69100F8E527 /* 反骗指南.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB53118F2F69100F8E527 /* 反骗指南.txt */; };
+		4C1FB53F18F2F69100F8E527 /* 智能简史.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB53318F2F69100F8E527 /* 智能简史.txt */; };
+		4C1FB54018F2F69100F8E527 /* 辩驳诡辩的方法与技巧.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB53518F2F69100F8E527 /* 辩驳诡辩的方法与技巧.txt */; };
+		4C1FB54118F2F69100F8E527 /* 李小龙的功夫人生.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C1FB53718F2F69100F8E527 /* 李小龙的功夫人生.txt */; };
 		4C3AC97418EEC7C7008764A0 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */; };
 		4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC96F18EEC7C7008764A0 /* MMDrawerController.m */; };
 		4C3AC97618EEC7C7008764A0 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC97118EEC7C7008764A0 /* MMDrawerVisualState.m */; };
@@ -198,6 +204,12 @@
 		4C1FB4F918F0F2E000F8E527 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4C1FB4FB18F10BD600F8E527 /* CYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFileManager.h; sourceTree = "<group>"; };
 		4C1FB4FC18F10BD600F8E527 /* CYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFileManager.m; sourceTree = "<group>"; };
+		4C1FB4FE18F2F0C100F8E527 /* localTxtFiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = localTxtFiles.plist; sourceTree = "<group>"; };
+		4C1FB52F18F2F69100F8E527 /* 狄仁杰断案传奇.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "狄仁杰断案传奇.txt"; sourceTree = "<group>"; };
+		4C1FB53118F2F69100F8E527 /* 反骗指南.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "反骗指南.txt"; sourceTree = "<group>"; };
+		4C1FB53318F2F69100F8E527 /* 智能简史.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "智能简史.txt"; sourceTree = "<group>"; };
+		4C1FB53518F2F69100F8E527 /* 辩驳诡辩的方法与技巧.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = "辩驳诡辩的方法与技巧.txt"; sourceTree = "<group>"; };
+		4C1FB53718F2F69100F8E527 /* 李小龙的功夫人生.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "李小龙的功夫人生.txt"; sourceTree = "<group>"; };
 		4C3AC96B18EEC7C7008764A0 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		4C3AC96C18EEC7C7008764A0 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		4C3AC96D18EEC7C7008764A0 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
@@ -677,6 +689,74 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4C1FB52118F2F67D00F8E527 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB52218F2F69100F8E527 /* txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4C1FB52218F2F69100F8E527 /* txt */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB52318F2F69100F8E527 /* Inbox */,
+				4C1FB52E18F2F69100F8E527 /* 小说 */,
+				4C1FB53018F2F69100F8E527 /* 社会 */,
+				4C1FB53218F2F69100F8E527 /* 科普 */,
+				4C1FB53418F2F69100F8E527 /* 管理 */,
+				4C1FB53618F2F69100F8E527 /* 纪实 */,
+			);
+			path = txt;
+			sourceTree = "<group>";
+		};
+		4C1FB52318F2F69100F8E527 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		4C1FB52E18F2F69100F8E527 /* 小说 */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB52F18F2F69100F8E527 /* 狄仁杰断案传奇.txt */,
+			);
+			path = "小说";
+			sourceTree = "<group>";
+		};
+		4C1FB53018F2F69100F8E527 /* 社会 */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB53118F2F69100F8E527 /* 反骗指南.txt */,
+			);
+			path = "社会";
+			sourceTree = "<group>";
+		};
+		4C1FB53218F2F69100F8E527 /* 科普 */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB53318F2F69100F8E527 /* 智能简史.txt */,
+			);
+			path = "科普";
+			sourceTree = "<group>";
+		};
+		4C1FB53418F2F69100F8E527 /* 管理 */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB53518F2F69100F8E527 /* 辩驳诡辩的方法与技巧.txt */,
+			);
+			path = "管理";
+			sourceTree = "<group>";
+		};
+		4C1FB53618F2F69100F8E527 /* 纪实 */ = {
+			isa = PBXGroup;
+			children = (
+				4C1FB53718F2F69100F8E527 /* 李小龙的功夫人生.txt */,
+			);
+			path = "纪实";
+			sourceTree = "<group>";
+		};
 		4C3AC96A18EEC7C7008764A0 /* MMDrawerController */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,7 +835,7 @@
 				F993B68B182E868D00E6B111 /* CYAppDelegate.h */,
 				F993B68C182E868D00E6B111 /* CYAppDelegate.m */,
 				F993B6AB182E87A900E6B111 /* Classes */,
-				F993B7A8182E87AA00E6B111 /* Resource */,
+				4C1FB52118F2F67D00F8E527 /* Resource */,
 				F993B68E182E868D00E6B111 /* Images.xcassets */,
 				F993B683182E868D00E6B111 /* Supporting Files */,
 			);
@@ -766,6 +846,7 @@
 			isa = PBXGroup;
 			children = (
 				F993B684182E868D00E6B111 /* jiMoApp-Info.plist */,
+				4C1FB4FE18F2F0C100F8E527 /* localTxtFiles.plist */,
 				F993B685182E868D00E6B111 /* InfoPlist.strings */,
 				F993B688182E868D00E6B111 /* main.m */,
 				F993B68A182E868D00E6B111 /* jiMoApp-Prefix.pch */,
@@ -1204,13 +1285,6 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		F993B7A8182E87AA00E6B111 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1287,8 +1361,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1FB54018F2F69100F8E527 /* 辩驳诡辩的方法与技巧.txt in Resources */,
 				F993B7C8182E87AA00E6B111 /* blueArrow@2x.png in Resources */,
 				F993B687182E868D00E6B111 /* InfoPlist.strings in Resources */,
+				4C1FB53F18F2F69100F8E527 /* 智能简史.txt in Resources */,
 				4C1E67BC18F05B8600BFB8BD /* CYDownLoadViewController.xib in Resources */,
 				F993B7C5182E87AA00E6B111 /* blackArrow.png in Resources */,
 				F993B7CD182E87AA00E6B111 /* whiteArrow@2x.png in Resources */,
@@ -1298,11 +1374,15 @@
 				F993B7C7182E87AA00E6B111 /* blueArrow.png in Resources */,
 				F993B7C6182E87AA00E6B111 /* blackArrow@2x.png in Resources */,
 				4C1E679918F052C700BFB8BD /* CYLeftRootViewController.xib in Resources */,
+				4C1FB4FF18F2F0C100F8E527 /* localTxtFiles.plist in Resources */,
 				F993B7CC182E87AA00E6B111 /* whiteArrow.png in Resources */,
+				4C1FB53E18F2F69100F8E527 /* 反骗指南.txt in Resources */,
+				4C1FB54118F2F69100F8E527 /* 李小龙的功夫人生.txt in Resources */,
 				F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */,
 				4C1E67C118F05B9F00BFB8BD /* CYLocalViewController.xib in Resources */,
 				F993B7D8182E87AA00E6B111 /* ITTMaskActivityView.xib in Resources */,
 				F9119A2E182E8A9100460BE6 /* Default.png in Resources */,
+				4C1FB53D18F2F69100F8E527 /* 狄仁杰断案传奇.txt in Resources */,
 				F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */,
 				F993B7C9182E87AA00E6B111 /* grayArrow.png in Resources */,
 				4C1E67A818F0564B00BFB8BD /* CYPersonalCell.xib in Resources */,

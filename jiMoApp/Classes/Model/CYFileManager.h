@@ -12,4 +12,6 @@
 
 + (id)shareInstance;
 - (NSString *)getTxtPath;
+- (void)loadLocalTxtFiles;
+
 @end
