@@ -11,7 +11,10 @@
 @interface CYFileManager : NSObject
 
 + (id)shareInstance;
-- (NSString *)getTxtPath;
-- (void)loadLocalTxtFiles;
 
++ (NSArray *)getTxtDirectorysFinishedAbsulteUrlsArray:(NSArray **)arr;
++ (NSArray *)getTxtNamesWithDirectorPath:(NSString *)path txtAbsolutePaths:(NSArray **)paths;
+
+- (void)loadLocalTxtFiles;
+- (NSString *)getTxtPath;
 @end

@@ -23,6 +23,7 @@
 #import "ITTCommonMacros.h"
 #import "ITTCommonFunctions.h"
 #import "CYUsefulTool.h"
+#import "CYFileManager.h"
 #endif
 
 static  BOOL OSVersionAtLeastIOS_7(){

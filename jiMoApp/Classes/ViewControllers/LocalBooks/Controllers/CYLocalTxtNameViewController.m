@@ -1,26 +1,27 @@
 //
-//  CYLocalViewController.m
+//  CYLocalTxtNameViewController.m
 //  jiMoApp
 //
-//  Created by 成焱 on 14-4-5.
+//  Created by 成焱 on 14-4-8.
 //  Copyright (c) 2014年 chengYan. All rights reserved.
 //
 
-#import "CYLocalViewController.h"
-#import "CYDirectoryTableViewCell.h"
-#import "CYDirectory.h"
 #import "CYLocalTxtNameViewController.h"
-@interface CYLocalViewController ()<UITableViewDelegate,UITableViewDataSource>
-@property (nonatomic, strong) NSMutableArray *directorys;//路径名
+#import "CYDirectoryTableViewCell.h"
+#import "CYBookReaderViewController.h"
+@interface CYLocalTxtNameViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) NSMutableArray *directorys;
 @end
 
-@implementation CYLocalViewController
+@implementation CYLocalTxtNameViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        self.directory = [CYDirectory new];
         self.directorys = [[NSMutableArray alloc]init];
+        // Custom initialization
     }
     return self;
 }
@@ -28,17 +29,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"本地书库";
+    self.title = self.directory.parentDirectoryName;
     NSArray *absoluteUrl = nil;
-    NSArray *arr = [CYFileManager getTxtDirectorysFinishedAbsulteUrlsArray:&absoluteUrl];
-    [arr enumerateObjectsUsingBlock:^(id obj, NSUInteger index, BOOL *stop){
+    NSArray *arr = [CYFileManager getTxtNamesWithDirectorPath:self.directory.parentDirectoryAbsoluteUrl txtAbsolutePaths:&absoluteUrl];
+    [arr enumerateObjectsUsingBlock:^(id obj,NSUInteger index, BOOL *stop){
         CYDirectory *directory = [CYDirectory new];
-        directory.currentDirectoryName = obj;
         directory.index = index;
+        directory.currentDirectoryName = obj;
         directory.currentDirectoryAbsoluteUrl = absoluteUrl[index];
         [self.directorys addObject:directory];
     }];
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -69,12 +69,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CYDirectory *directory = [self.directorys objectAtIndex:indexPath.row];
-    CYLocalTxtNameViewController *localNameViewController = [CYLocalTxtNameViewController new];
+    CYDirectory *directory = (CYDirectory *)[self.directorys objectAtIndex:indexPath.row];
+    CYBookReaderViewController  *reader = [CYBookReaderViewController new];
+    reader.txtAbsoluteUrl = directory.currentDirectoryAbsoluteUrl;
+    [self.navigationController pushViewController:reader animated:YES];
     
-    localNameViewController.directory.parentDirectoryName = directory.currentDirectoryName;
-    localNameViewController.directory.parentDirectoryAbsoluteUrl = directory.currentDirectoryAbsoluteUrl;
-    [self.navigationController pushViewController:localNameViewController animated:YES];
 }
-
 @end

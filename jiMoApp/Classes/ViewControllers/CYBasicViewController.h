@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CYBasicViewController : UIViewController
-
+@property (nonatomic, assign) BOOL showLeftBarButtonItem;
 @end

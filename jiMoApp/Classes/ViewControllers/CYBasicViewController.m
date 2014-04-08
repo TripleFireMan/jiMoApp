@@ -7,9 +7,9 @@
 //
 
 #import "CYBasicViewController.h"
-
+#import "MMDrawerBarButtonItem.h"
+#import "UIViewController+MMDrawerController.h"
 @interface CYBasicViewController ()
-
 @end
 
 @implementation CYBasicViewController
@@ -27,7 +27,9 @@
 {
     [super viewDidLoad];
     [self setTitleWithAtttibuteDic];
-
+    if (self.showLeftBarButtonItem) {
+        [self initLeftBarBtnItem];
+    }
 }
 
 - (void)setTitleWithAtttibuteDic
@@ -43,6 +45,18 @@
     }
     self.view.backgroundColor = [UIColor whiteColor];
 }
+
+- (void)initLeftBarBtnItem
+{
+    MMDrawerBarButtonItem *btnItem = [[MMDrawerBarButtonItem alloc]initWithTarget:self action:@selector(leftBarButtonItemClick:)];
+    self.navigationItem.leftBarButtonItem = btnItem;
+}
+
+- (void)leftBarButtonItemClick:(id)sender
+{
+    [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

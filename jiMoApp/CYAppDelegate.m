@@ -14,6 +14,7 @@
 #import "UINavigationController+IOS_6_1.h"
 #import "UITabBarController+IOS_6_1.h"
 #import "UIViewController+IOS_6_1.h"
+#import "CYFileManager.h"
 @interface CYAppDelegate ()
 @property (nonatomic, strong) MMDrawerController *drawerController;
 @end
@@ -22,11 +23,13 @@
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[CYFileManager shareInstance]loadLocalTxtFiles];//加载本地文件，不是特别的耗资源
+    
     CYLeftRootViewController *leftRootVC = [[CYLeftRootViewController alloc]init];
     CYCenterViewController  *centerRootVC = [[CYCenterViewController alloc]init];
+    centerRootVC.showLeftBarButtonItem = YES;
     
     UINavigationController *centerNavi = [[UINavigationController alloc]initWithRootViewController:centerRootVC];
-    
     [centerRootVC setRestorationIdentifier:CY_CENTER_ROOT_RESTORATION_KEY];
     
     UINavigationController *leftNavi = [[UINavigationController alloc]initWithRootViewController:leftRootVC];
@@ -57,6 +60,8 @@
         [self.window setTintColor:tintColor];
     }
     [self.window setRootViewController:self.drawerController];
+    
+
     return YES;
 }
 

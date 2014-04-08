@@ -15,6 +15,17 @@
 #import "CYSettingViewController.h"
 #import "UIImage+ITTAdditions.h"
 @interface CYLeftRootViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    UINavigationController *_homeNavi;
+    UINavigationController *_localNavi;
+    UINavigationController *_downLoadNavi;
+    UINavigationController *_settingNavi;
+    
+    CYCenterViewController *_center;
+    CYLocalViewController  *_local;
+    CYDownLoadViewController *_downLoad;
+    CYSettingViewController *_settting;
+}
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @end
@@ -38,6 +49,7 @@
 
     [self initBlurryImageView];
     [self initDataSource];
+    [self initViewControllers];
 }
 
 - (void)initBlurryImageView
@@ -47,6 +59,8 @@
     image = [image blurryImage:image withBlurLevel:0.9f];
     imageView.image = image;
     self.tableView.backgroundView = imageView;
+//    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+//    [self tableView:self.tableView didSelectRowAtIndexPath:indexPath];
 }
 
 - (void)initDataSource
@@ -58,6 +72,22 @@
         item.itemName = itemName[i];
         [self.dataSource addObject:item];
     }
+}
+
+- (void)initViewControllers
+{
+    _center = [CYCenterViewController new];
+    _center.showLeftBarButtonItem = YES;
+    _local = [CYLocalViewController new];
+    _local.showLeftBarButtonItem = YES;
+    _downLoad = [CYDownLoadViewController new];
+    _downLoad.showLeftBarButtonItem = YES;
+    _settting = [CYSettingViewController new];
+    _settting.showLeftBarButtonItem = YES;
+    _homeNavi = [[UINavigationController alloc]initWithRootViewController:_center];
+    _localNavi = [[UINavigationController alloc]initWithRootViewController:_local];
+    _downLoadNavi = [[UINavigationController alloc]initWithRootViewController:_downLoad];
+    _settingNavi = [[UINavigationController alloc]initWithRootViewController:_settting];
 }
 
 - (void)didReceiveMemoryWarning
@@ -90,25 +120,17 @@
     switch (indexPath.row) {
         case 0:
         {
-            CYCenterViewController *centerVc = [[CYCenterViewController alloc]init];
-            UINavigationController *navi = [[UINavigationController   alloc]initWithRootViewController:centerVc];
-            [self.mm_drawerController setCenterViewController:navi withCloseAnimation:YES completion:nil];
+            [self.mm_drawerController setCenterViewController:_homeNavi withCloseAnimation:YES completion:nil];
         }
             break;
         case 1:{
-            CYLocalViewController *localVc = [[CYLocalViewController alloc]init];
-            UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:localVc];
-            [self.mm_drawerController setCenterViewController:navi withCloseAnimation:YES completion:nil];
+            [self.mm_drawerController setCenterViewController:_localNavi withCloseAnimation:YES completion:nil];
         }break;
         case 2:{
-            CYDownLoadViewController *downloadVc = [[CYDownLoadViewController alloc]init];
-            UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:downloadVc];
-            [self.mm_drawerController setCenterViewController:navi withCloseAnimation:YES completion:nil];
+            [self.mm_drawerController setCenterViewController:_downLoadNavi withCloseAnimation:YES completion:nil];
         }break;
         case 3:{
-            CYSettingViewController *settingVc = [[CYSettingViewController alloc]init];
-            UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:settingVc];
-            [self.mm_drawerController setCenterViewController:navi withCloseAnimation:YES completion:nil];
+            [self.mm_drawerController setCenterViewController:_settingNavi withCloseAnimation:YES completion:nil];
         }break;
         default:
             break;

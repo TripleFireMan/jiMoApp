@@ -36,6 +36,18 @@
 		4C3AC98518EF1568008764A0 /* UINavigationController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98418EF1568008764A0 /* UINavigationController+IOS_6_1.m */; };
 		4C3AC98818EF15B4008764A0 /* UITabBarController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */; };
 		4C3AC98B18EF1633008764A0 /* UIViewController+IOS_6_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */; };
+		4C4F5F7D18F3D28000EFD6BE /* CYCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F5F7C18F3D28000EFD6BE /* CYCenterViewController.xib */; };
+		4C4F5F8118F3D3F800EFD6BE /* CYBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F5F7F18F3D3F800EFD6BE /* CYBookCell.m */; };
+		4C4F5F8218F3D3F800EFD6BE /* CYBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F5F8018F3D3F800EFD6BE /* CYBookCell.xib */; };
+		4C4F5F8518F3D4E200EFD6BE /* CYBookBrief.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F5F8418F3D4E200EFD6BE /* CYBookBrief.m */; };
+		4C9100A118F3DEA4005A5F4E /* CYBasicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100A018F3DEA4005A5F4E /* CYBasicTableViewCell.m */; };
+		4C9100A518F3DF06005A5F4E /* CYDirectoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100A318F3DF06005A5F4E /* CYDirectoryTableViewCell.m */; };
+		4C9100A618F3DF06005A5F4E /* CYDirectoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9100A418F3DF06005A5F4E /* CYDirectoryTableViewCell.xib */; };
+		4C9100A918F3E10E005A5F4E /* CYDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100A818F3E10E005A5F4E /* CYDirectory.m */; };
+		4C9100AD18F3E676005A5F4E /* CYLocalTxtNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100AB18F3E676005A5F4E /* CYLocalTxtNameViewController.m */; };
+		4C9100AE18F3E676005A5F4E /* CYLocalTxtNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9100AC18F3E676005A5F4E /* CYLocalTxtNameViewController.xib */; };
+		4C9100B618F3F71E005A5F4E /* CYBookReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9100B418F3F71E005A5F4E /* CYBookReaderViewController.m */; };
+		4C9100B718F3F71E005A5F4E /* CYBookReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9100B518F3F71E005A5F4E /* CYBookReaderViewController.xib */; };
 		F9119A2D182E8A9100460BE6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */; };
 		F9119A2E182E8A9100460BE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2B182E8A9100460BE6 /* Default.png */; };
 		F9119A2F182E8A9100460BE6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9119A2C182E8A9100460BE6 /* Default@2x.png */; };
@@ -227,6 +239,25 @@
 		4C3AC98718EF15B4008764A0 /* UITabBarController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+IOS_6_1.m"; sourceTree = "<group>"; };
 		4C3AC98918EF1633008764A0 /* UIViewController+IOS_6_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IOS_6_1.h"; sourceTree = "<group>"; };
 		4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IOS_6_1.m"; sourceTree = "<group>"; };
+		4C4F5F7C18F3D28000EFD6BE /* CYCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CYCenterViewController.xib; path = jiMoApp/Classes/ViewControllers/homePage/Controllers/CYCenterViewController.xib; sourceTree = SOURCE_ROOT; };
+		4C4F5F7E18F3D3F800EFD6BE /* CYBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBookCell.h; sourceTree = SOURCE_ROOT; };
+		4C4F5F7F18F3D3F800EFD6BE /* CYBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBookCell.m; sourceTree = SOURCE_ROOT; };
+		4C4F5F8018F3D3F800EFD6BE /* CYBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYBookCell.xib; sourceTree = SOURCE_ROOT; };
+		4C4F5F8318F3D4E200EFD6BE /* CYBookBrief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBookBrief.h; sourceTree = SOURCE_ROOT; };
+		4C4F5F8418F3D4E200EFD6BE /* CYBookBrief.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBookBrief.m; sourceTree = SOURCE_ROOT; };
+		4C91009F18F3DEA4005A5F4E /* CYBasicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBasicTableViewCell.h; sourceTree = "<group>"; };
+		4C9100A018F3DEA4005A5F4E /* CYBasicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBasicTableViewCell.m; sourceTree = "<group>"; };
+		4C9100A218F3DF06005A5F4E /* CYDirectoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDirectoryTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		4C9100A318F3DF06005A5F4E /* CYDirectoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDirectoryTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		4C9100A418F3DF06005A5F4E /* CYDirectoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYDirectoryTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		4C9100A718F3E10E005A5F4E /* CYDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYDirectory.h; sourceTree = SOURCE_ROOT; };
+		4C9100A818F3E10E005A5F4E /* CYDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYDirectory.m; sourceTree = SOURCE_ROOT; };
+		4C9100AA18F3E676005A5F4E /* CYLocalTxtNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLocalTxtNameViewController.h; sourceTree = "<group>"; };
+		4C9100AB18F3E676005A5F4E /* CYLocalTxtNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLocalTxtNameViewController.m; sourceTree = "<group>"; };
+		4C9100AC18F3E676005A5F4E /* CYLocalTxtNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLocalTxtNameViewController.xib; sourceTree = "<group>"; };
+		4C9100B318F3F71E005A5F4E /* CYBookReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBookReaderViewController.h; sourceTree = "<group>"; };
+		4C9100B418F3F71E005A5F4E /* CYBookReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBookReaderViewController.m; sourceTree = "<group>"; };
+		4C9100B518F3F71E005A5F4E /* CYBookReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYBookReaderViewController.xib; sourceTree = "<group>"; };
 		F9119A2A182E8A9100460BE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9119A2B182E8A9100460BE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F9119A2C182E8A9100460BE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -569,6 +600,7 @@
 			children = (
 				4C1E679C18F052D900BFB8BD /* CYCenterViewController.h */,
 				4C1E679D18F052D900BFB8BD /* CYCenterViewController.m */,
+				4C4F5F7C18F3D28000EFD6BE /* CYCenterViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -576,6 +608,8 @@
 		4C1E679E18F052D900BFB8BD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4C4F5F8318F3D4E200EFD6BE /* CYBookBrief.h */,
+				4C4F5F8418F3D4E200EFD6BE /* CYBookBrief.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -583,6 +617,9 @@
 		4C1E679F18F052D900BFB8BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4C4F5F7E18F3D3F800EFD6BE /* CYBookCell.h */,
+				4C4F5F7F18F3D3F800EFD6BE /* CYBookCell.m */,
+				4C4F5F8018F3D3F800EFD6BE /* CYBookCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -637,6 +674,9 @@
 				4C1E67BD18F05B9F00BFB8BD /* CYLocalViewController.h */,
 				4C1E67BE18F05B9F00BFB8BD /* CYLocalViewController.m */,
 				4C1E67BF18F05B9F00BFB8BD /* CYLocalViewController.xib */,
+				4C9100AA18F3E676005A5F4E /* CYLocalTxtNameViewController.h */,
+				4C9100AB18F3E676005A5F4E /* CYLocalTxtNameViewController.m */,
+				4C9100AC18F3E676005A5F4E /* CYLocalTxtNameViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -644,6 +684,8 @@
 		4C1E67B218F05B3B00BFB8BD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4C9100A718F3E10E005A5F4E /* CYDirectory.h */,
+				4C9100A818F3E10E005A5F4E /* CYDirectory.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -651,6 +693,9 @@
 		4C1E67B318F05B3B00BFB8BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4C9100A218F3DF06005A5F4E /* CYDirectoryTableViewCell.h */,
+				4C9100A318F3DF06005A5F4E /* CYDirectoryTableViewCell.m */,
+				4C9100A418F3DF06005A5F4E /* CYDirectoryTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -786,6 +831,16 @@
 				4C3AC98A18EF1633008764A0 /* UIViewController+IOS_6_1.m */,
 			);
 			name = Catograys;
+			sourceTree = "<group>";
+		};
+		4C9100AF18F3ED46005A5F4E /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				4C9100B318F3F71E005A5F4E /* CYBookReaderViewController.h */,
+				4C9100B418F3F71E005A5F4E /* CYBookReaderViewController.m */,
+				4C9100B518F3F71E005A5F4E /* CYBookReaderViewController.xib */,
+			);
+			path = Reader;
 			sourceTree = "<group>";
 		};
 		F993B670182E868D00E6B111 = {
@@ -1273,6 +1328,7 @@
 		F993B7A5182E87AA00E6B111 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4C9100AF18F3ED46005A5F4E /* Reader */,
 				4C1E67AC18F05B3B00BFB8BD /* DownloadBooks */,
 				4C1E67B018F05B3B00BFB8BD /* LocalBooks */,
 				4C1E67B418F05B3B00BFB8BD /* SystemSetting */,
@@ -1281,6 +1337,8 @@
 				4C3AC99118EF2685008764A0 /* Catograys */,
 				4C1E67C718F05E1600BFB8BD /* CYBasicViewController.h */,
 				4C1E67C818F05E1600BFB8BD /* CYBasicViewController.m */,
+				4C91009F18F3DEA4005A5F4E /* CYBasicTableViewCell.h */,
+				4C9100A018F3DEA4005A5F4E /* CYBasicTableViewCell.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1366,14 +1424,19 @@
 				F993B687182E868D00E6B111 /* InfoPlist.strings in Resources */,
 				4C1FB53F18F2F69100F8E527 /* 智能简史.txt in Resources */,
 				4C1E67BC18F05B8600BFB8BD /* CYDownLoadViewController.xib in Resources */,
+				4C9100B718F3F71E005A5F4E /* CYBookReaderViewController.xib in Resources */,
+				4C4F5F7D18F3D28000EFD6BE /* CYCenterViewController.xib in Resources */,
 				F993B7C5182E87AA00E6B111 /* blackArrow.png in Resources */,
 				F993B7CD182E87AA00E6B111 /* whiteArrow@2x.png in Resources */,
+				4C9100AE18F3E676005A5F4E /* CYLocalTxtNameViewController.xib in Resources */,
 				4C1E67C618F05BBA00BFB8BD /* CYSettingViewController.xib in Resources */,
 				F993B7CA182E87AA00E6B111 /* grayArrow@2x.png in Resources */,
+				4C9100A618F3DF06005A5F4E /* CYDirectoryTableViewCell.xib in Resources */,
 				F993B7CB182E87AA00E6B111 /* Localizable.strings in Resources */,
 				F993B7C7182E87AA00E6B111 /* blueArrow.png in Resources */,
 				F993B7C6182E87AA00E6B111 /* blackArrow@2x.png in Resources */,
 				4C1E679918F052C700BFB8BD /* CYLeftRootViewController.xib in Resources */,
+				4C4F5F8218F3D3F800EFD6BE /* CYBookCell.xib in Resources */,
 				4C1FB4FF18F2F0C100F8E527 /* localTxtFiles.plist in Resources */,
 				F993B7CC182E87AA00E6B111 /* whiteArrow.png in Resources */,
 				4C1FB53E18F2F69100F8E527 /* 反骗指南.txt in Resources */,
@@ -1422,6 +1485,7 @@
 				F993B7D9182E87AA00E6B111 /* ITTNetworkTrafficManager.m in Sources */,
 				F993B7C4182E87AA00E6B111 /* ITTRefreshTableHeaderView.m in Sources */,
 				F993B7CF182E87AA00E6B111 /* ITTBaseModelObject.m in Sources */,
+				4C4F5F8518F3D4E200EFD6BE /* CYBookBrief.m in Sources */,
 				F993B7C0182E87AA00E6B111 /* ITTBaseManager.m in Sources */,
 				4C3AC97518EEC7C7008764A0 /* MMDrawerController.m in Sources */,
 				F993B7D3182E87AA00E6B111 /* ITTAFQueryStringPair.m in Sources */,
@@ -1429,6 +1493,7 @@
 				F993B804182E87AA00E6B111 /* SDWebImageDownloaderOperation.m in Sources */,
 				F993B7B2182E87AA00E6B111 /* UIFont+ITTAdditions.m in Sources */,
 				F993B7AA182E87AA00E6B111 /* NSArray+ITTAdditions.m in Sources */,
+				4C9100AD18F3E676005A5F4E /* CYLocalTxtNameViewController.m in Sources */,
 				F993B7F7182E87AA00E6B111 /* ASIS3BucketObject.m in Sources */,
 				F993B7AE182E87AA00E6B111 /* UIAlertView+ITTAdditions.m in Sources */,
 				F993B7EB182E87AA00E6B111 /* ASIFormDataRequest.m in Sources */,
@@ -1447,6 +1512,7 @@
 				F993B7BE182E87AA00E6B111 /* ITTDataEnvironment.m in Sources */,
 				F993B806182E87AA00E6B111 /* SDWebImagePrefetcher.m in Sources */,
 				F993B7FB182E87AA00E6B111 /* ASIS3ServiceRequest.m in Sources */,
+				4C9100A118F3DEA4005A5F4E /* CYBasicTableViewCell.m in Sources */,
 				F993B7E5182E87AA00E6B111 /* AFXMLRequestOperation.m in Sources */,
 				F993B7D2182E87AA00E6B111 /* ITTAFNBaseDataRequest.m in Sources */,
 				F993B7DC182E87AA00E6B111 /* ITTRequestResult.m in Sources */,
@@ -1469,11 +1535,13 @@
 				F993B7FA182E87AA00E6B111 /* ASIS3Request.m in Sources */,
 				F993B7D7182E87AA00E6B111 /* ITTMaskActivityView.m in Sources */,
 				F993B7F1182E87AA00E6B111 /* ASICloudFilesContainerRequest.m in Sources */,
+				4C9100A518F3DF06005A5F4E /* CYDirectoryTableViewCell.m in Sources */,
 				F993B7F5182E87AA00E6B111 /* ASICloudFilesRequest.m in Sources */,
 				F993B7F8182E87AA00E6B111 /* ASIS3BucketRequest.m in Sources */,
 				F993B7DE182E87AA00E6B111 /* AFHTTPClient.m in Sources */,
 				F993B809182E87AA00E6B111 /* UIImage+MultiFormat.m in Sources */,
 				F993B7E7182E87AA00E6B111 /* ASIAuthenticationDialog.m in Sources */,
+				4C4F5F8118F3D3F800EFD6BE /* CYBookCell.m in Sources */,
 				F993B811182E87AA00E6B111 /* RandomUtil.m in Sources */,
 				4C3AC98818EF15B4008764A0 /* UITabBarController+IOS_6_1.m in Sources */,
 				F993B7EF182E87AA00E6B111 /* ASICloudFilesCDNRequest.m in Sources */,
@@ -1505,6 +1573,7 @@
 				F993B7E6182E87AA00E6B111 /* UIImageView+AFNetworking.m in Sources */,
 				F993B80D182E87AA00E6B111 /* CYConstTool.m in Sources */,
 				F993B80E182E87AA00E6B111 /* CYUrlSets.m in Sources */,
+				4C9100A918F3E10E005A5F4E /* CYDirectory.m in Sources */,
 				F993B7E3182E87AA00E6B111 /* AFPropertyListRequestOperation.m in Sources */,
 				4C3AC97418EEC7C7008764A0 /* MMDrawerBarButtonItem.m in Sources */,
 				F993B7A9182E87AA00E6B111 /* ITTCommonFunctions.m in Sources */,
@@ -1519,6 +1588,7 @@
 				F993B80C182E87AA00E6B111 /* CommonUtils.m in Sources */,
 				F993B7C3182E87AA00E6B111 /* ITTPullTableView.m in Sources */,
 				F993B7F6182E87AA00E6B111 /* ASIS3Bucket.m in Sources */,
+				4C9100B618F3F71E005A5F4E /* CYBookReaderViewController.m in Sources */,
 				F993B7AF182E87AA00E6B111 /* UIButton+ITTAdditions.m in Sources */,
 				4C3AC98518EF1568008764A0 /* UINavigationController+IOS_6_1.m in Sources */,
 				F993B807182E87AA00E6B111 /* UIButton+WebCache.m in Sources */,
