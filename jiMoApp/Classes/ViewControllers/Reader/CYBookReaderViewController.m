@@ -27,6 +27,12 @@
 {
     [super viewDidLoad];
     self.title = @"aa";
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
+                                              initWithTitle:@"返回"
+                                              style:UIBarButtonItemStylePlain
+                                              target:self
+                                              action:@selector(GoBack:)];
     NSString *txt = [NSString stringWithContentsOfFile:self.txtAbsoluteUrl encoding:NSUTF8StringEncoding error:nil];
     if (txt==nil) {
         txt = [NSString stringWithContentsOfFile:self.txtAbsoluteUrl encoding:0x80000632 error:nil];
@@ -38,6 +44,17 @@
     textview.text = txt;
     [self.view addSubview:textview];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)GoBack:(id)sender
+{
+    NSLog(@"==%@",self.navigationController);
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)loadView
+{
+    self.view = [[UIView alloc]initWithFrame:CGRectMake(0, 64, 320, 400)];
 }
 
 - (void)didReceiveMemoryWarning

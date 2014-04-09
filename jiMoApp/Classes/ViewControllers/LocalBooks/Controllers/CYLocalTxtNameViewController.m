@@ -73,6 +73,6 @@
     CYBookReaderViewController  *reader = [CYBookReaderViewController new];
     reader.txtAbsoluteUrl = directory.currentDirectoryAbsoluteUrl;
     [self.navigationController pushViewController:reader animated:YES];
-    
+    NSLog(@"---%@",self.navigationController);
 }
 @end
