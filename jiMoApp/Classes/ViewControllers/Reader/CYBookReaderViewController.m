@@ -9,7 +9,9 @@
 #import "CYBookReaderViewController.h"
 
 @interface CYBookReaderViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *backBtn;
 
+- (IBAction)back:(id)sender;
 @end
 
 @implementation CYBookReaderViewController
@@ -26,13 +28,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"aa";
+    self.title = self.bookName;
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
-                                              initWithTitle:@"返回"
-                                              style:UIBarButtonItemStylePlain
-                                              target:self
-                                              action:@selector(GoBack:)];
+//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]
+//                                              initWithTitle:@"返回"
+//                                              style:UIBarButtonItemStylePlain
+//                                              target:self
+//                                              action:@selector(GoBack:)];
     NSString *txt = [NSString stringWithContentsOfFile:self.txtAbsoluteUrl encoding:NSUTF8StringEncoding error:nil];
     if (txt==nil) {
         txt = [NSString stringWithContentsOfFile:self.txtAbsoluteUrl encoding:0x80000632 error:nil];
@@ -43,18 +45,25 @@
     UITextView *textview = [[UITextView alloc]initWithFrame:self.view.bounds];
     textview.text = txt;
     [self.view addSubview:textview];
+    [self.view bringSubviewToFront:self.backBtn];
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)GoBack:(id)sender
+//- (void)GoBack:(id)sender
+//{
+//    [self.navigationController popViewControllerAnimated:YES];
+//    NSLog(@"----------%@",self.navigationController.viewControllers);
+//    
+//}
+
+- (void)viewWillDisappear:(BOOL)animated
 {
-    NSLog(@"==%@",self.navigationController);
-    [self.navigationController popViewControllerAnimated:YES];
+    [super viewWillDisappear:animated];
 }
 
-- (void)loadView
+- (void)viewDidDisappear:(BOOL)animated
 {
-    self.view = [[UIView alloc]initWithFrame:CGRectMake(0, 64, 320, 400)];
+    [super viewDidDisappear:animated];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,4 +72,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc
+{
+    NSLog(@"---%@",self.view);
+}
+
+- (IBAction)back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end

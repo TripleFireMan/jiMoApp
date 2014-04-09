@@ -32,7 +32,7 @@
         
         CGFloat maxDistance = 50;
         CGFloat distance = maxDistance * percentVisible;
-        CATransform3D translateTransform = CATransform3DIdentity;
+        CATransform3D translateTransform;
         UIViewController * sideDrawerViewController;
         if(drawerSide == MMDrawerSideLeft) {
             sideDrawerViewController = drawerController.leftDrawerViewController;
@@ -58,7 +58,7 @@
     MMDrawerControllerDrawerVisualStateBlock visualStateBlock =
     ^(MMDrawerController * drawerController, MMDrawerSide drawerSide, CGFloat percentVisible){
         UIViewController * sideDrawerViewController;
-        CGPoint anchorPoint;
+        CGPoint anchorPoint = CGPointMake(0.5, 0.5);
         CGFloat maxDrawerWidth = 0.0;
         CGFloat xOffset;
         CGFloat angle = 0.0;
@@ -117,7 +117,7 @@
     MMDrawerControllerDrawerVisualStateBlock visualStateBlock =
     ^(MMDrawerController * drawerController, MMDrawerSide drawerSide, CGFloat percentVisible){
         NSParameterAssert(parallaxFactor >= 1.0);
-        CATransform3D transform = CATransform3DIdentity;
+        CATransform3D transform;
         UIViewController * sideDrawerViewController;
         if(drawerSide == MMDrawerSideLeft) {
             sideDrawerViewController = drawerController.leftDrawerViewController;

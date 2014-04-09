@@ -10,4 +10,5 @@
 
 @interface CYBookReaderViewController : CYBasicViewController
 @property (nonatomic, copy) NSString *txtAbsoluteUrl;
+@property (nonatomic, copy) NSString *bookName;
 @end

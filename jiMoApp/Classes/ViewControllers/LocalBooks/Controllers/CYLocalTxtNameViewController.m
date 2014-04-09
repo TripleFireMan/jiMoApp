@@ -41,10 +41,10 @@
     }];
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark tableViewDelegates
@@ -70,9 +70,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CYDirectory *directory = (CYDirectory *)[self.directorys objectAtIndex:indexPath.row];
-    CYBookReaderViewController  *reader = [CYBookReaderViewController new];
+    CYBookReaderViewController  *reader = [[CYBookReaderViewController alloc]init];
     reader.txtAbsoluteUrl = directory.currentDirectoryAbsoluteUrl;
+    reader.bookName = directory.currentDirectoryName;
     [self.navigationController pushViewController:reader animated:YES];
-    NSLog(@"---%@",self.navigationController);
+    NSLog(@"---%@",self.navigationController.viewControllers);
 }
 @end

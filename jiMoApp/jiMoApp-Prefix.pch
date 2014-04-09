@@ -24,8 +24,9 @@
 #import "ITTCommonFunctions.h"
 #import "CYUsefulTool.h"
 #import "CYFileManager.h"
-#endif
 
 static  BOOL OSVersionAtLeastIOS_7(){
     return (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1);
 }
+#endif
+

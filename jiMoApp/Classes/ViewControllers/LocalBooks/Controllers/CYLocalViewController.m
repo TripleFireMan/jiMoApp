@@ -70,7 +70,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CYDirectory *directory = [self.directorys objectAtIndex:indexPath.row];
-    CYLocalTxtNameViewController *localNameViewController = [CYLocalTxtNameViewController new];
+    CYLocalTxtNameViewController *localNameViewController = [[CYLocalTxtNameViewController alloc]init];
     
     localNameViewController.directory.parentDirectoryName = directory.currentDirectoryName;
     localNameViewController.directory.parentDirectoryAbsoluteUrl = directory.currentDirectoryAbsoluteUrl;

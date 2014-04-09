@@ -26,6 +26,7 @@
     CYDownLoadViewController *_downLoad;
     CYSettingViewController *_settting;
 }
+- (IBAction)next:(id)sender;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @end
@@ -38,6 +39,7 @@
     if (self) {
         // Custom initialization
     }
+    
     return self;
 }
 
@@ -59,8 +61,6 @@
     image = [image blurryImage:image withBlurLevel:0.9f];
     imageView.image = image;
     self.tableView.backgroundView = imageView;
-//    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-//    [self tableView:self.tableView didSelectRowAtIndexPath:indexPath];
 }
 
 - (void)initDataSource
@@ -124,6 +124,7 @@
         }
             break;
         case 1:{
+            
             [self.mm_drawerController setCenterViewController:_localNavi withCloseAnimation:YES completion:nil];
         }break;
         case 2:{
@@ -136,4 +137,5 @@
             break;
     }
 }
+
 @end

@@ -11,38 +11,26 @@
 #import "CYLeftRootViewController.h"
 #import "MMDrawerController.h"
 #import "MMExampleDrawerVisualStateManager.h"
-#import "UINavigationController+IOS_6_1.h"
-#import "UITabBarController+IOS_6_1.h"
-#import "UIViewController+IOS_6_1.h"
+#import <QuartzCore/QuartzCore.h>
 #import "CYFileManager.h"
-@interface CYAppDelegate ()
-@property (nonatomic, strong) MMDrawerController *drawerController;
-@end
 
 @implementation CYAppDelegate
 
-- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[CYFileManager shareInstance]loadLocalTxtFiles];//加载本地文件，不是特别的耗资源
-    
     CYLeftRootViewController *leftRootVC = [[CYLeftRootViewController alloc]init];
     CYCenterViewController  *centerRootVC = [[CYCenterViewController alloc]init];
-    centerRootVC.showLeftBarButtonItem = YES;
+    
     
     UINavigationController *centerNavi = [[UINavigationController alloc]initWithRootViewController:centerRootVC];
-    [centerRootVC setRestorationIdentifier:CY_CENTER_ROOT_RESTORATION_KEY];
-    
-    UINavigationController *leftNavi = [[UINavigationController alloc]initWithRootViewController:leftRootVC];
-    [leftNavi setRestorationIdentifier:CY_LEFT_ROOT_RESTORATION_KEY];
-    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNavi leftDrawerViewController:leftNavi];
-    [self.drawerController setShowsShadow:YES];
-    
-    [self.drawerController setRestorationIdentifier:@"MMDrawer"];
-    [self.drawerController setMaximumLeftDrawerWidth:240.f];
-    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
-    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
-    
-    [self.drawerController
+    centerRootVC.showLeftBarButtonItem = YES;
+    MMDrawerController *drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNavi leftDrawerViewController:leftRootVC];
+    [drawerController setShowsShadow:YES];
+
+    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    [drawerController
      setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
          MMDrawerControllerDrawerVisualStateBlock block;
          block = [[MMExampleDrawerVisualStateManager sharedManager]
@@ -59,29 +47,12 @@
                                               alpha:1.0];
         [self.window setTintColor:tintColor];
     }
-    [self.window setRootViewController:self.drawerController];
-    
-
-    return YES;
-}
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+    [self.window setRootViewController:drawerController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
 
-- (BOOL)application:(UIApplication *)application shouldSaveApplicationState:(NSCoder *)coder
-{
-    return YES;
-}
-
-- (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder
-{
-    return YES;
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

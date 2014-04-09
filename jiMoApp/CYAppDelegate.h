@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CYCenterViewController.h"
 @interface CYAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

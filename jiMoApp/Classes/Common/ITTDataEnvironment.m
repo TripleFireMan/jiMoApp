@@ -8,7 +8,7 @@
 
 #import "ITTDataEnvironment.h"
 #import "ITTDataCacheManager.h"
-#import "ITTNetworkTrafficManager.h"
+//#import "ITTNetworkTrafficManager.h"
 #import "ITTObjectSingleton.h"
 @interface ITTDataEnvironment()
 - (void)restore;
