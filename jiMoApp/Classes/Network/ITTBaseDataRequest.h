@@ -56,7 +56,7 @@ typedef enum : NSUInteger{
 }
 
 @property (nonatomic, assign) BOOL isLoading;
-@property (nonatomic, assign) CGFloat currentProgress;
+@property (nonatomic, assign) float currentProgress;
 @property (nonatomic, assign) ITTParameterEncoding parmaterEncoding;
 @property (nonatomic, strong) id handleredResult;
 @property (nonatomic, strong) NSString *requestUrl;

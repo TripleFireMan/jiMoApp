@@ -83,6 +83,8 @@
 		4C4F5F8118F3D3F800EFD6BE /* CYBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F5F7F18F3D3F800EFD6BE /* CYBookCell.m */; };
 		4C4F5F8218F3D3F800EFD6BE /* CYBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F5F8018F3D3F800EFD6BE /* CYBookCell.xib */; };
 		4C4F5F8518F3D4E200EFD6BE /* CYBookBrief.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F5F8418F3D4E200EFD6BE /* CYBookBrief.m */; };
+		4C5560F318F68276002D6FD3 /* CYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5560F218F68276002D6FD3 /* CYPageViewController.m */; };
+		4C5560F618F68719002D6FD3 /* CYPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5560F518F68719002D6FD3 /* CYPageView.m */; };
 		4C6463F818F532CF00C2ACB9 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6463F118F532CF00C2ACB9 /* MMDrawerController.m */; };
 		4C6463F918F532CF00C2ACB9 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6463F318F532CF00C2ACB9 /* UIViewController+MMDrawerController.m */; };
 		4C6463FA18F532CF00C2ACB9 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6463F518F532CF00C2ACB9 /* MMDrawerBarButtonItem.m */; };
@@ -306,6 +308,10 @@
 		4C4F5F8018F3D3F800EFD6BE /* CYBookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYBookCell.xib; sourceTree = SOURCE_ROOT; };
 		4C4F5F8318F3D4E200EFD6BE /* CYBookBrief.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBookBrief.h; sourceTree = SOURCE_ROOT; };
 		4C4F5F8418F3D4E200EFD6BE /* CYBookBrief.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBookBrief.m; sourceTree = SOURCE_ROOT; };
+		4C5560F118F68276002D6FD3 /* CYPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPageViewController.h; sourceTree = "<group>"; };
+		4C5560F218F68276002D6FD3 /* CYPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPageViewController.m; sourceTree = "<group>"; };
+		4C5560F418F68719002D6FD3 /* CYPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPageView.h; sourceTree = "<group>"; };
+		4C5560F518F68719002D6FD3 /* CYPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPageView.m; sourceTree = "<group>"; };
 		4C6463F018F532CF00C2ACB9 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
 		4C6463F118F532CF00C2ACB9 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
 		4C6463F218F532CF00C2ACB9 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
@@ -927,6 +933,10 @@
 				4C9100B318F3F71E005A5F4E /* CYBookReaderViewController.h */,
 				4C9100B418F3F71E005A5F4E /* CYBookReaderViewController.m */,
 				4C9100B518F3F71E005A5F4E /* CYBookReaderViewController.xib */,
+				4C5560F118F68276002D6FD3 /* CYPageViewController.h */,
+				4C5560F218F68276002D6FD3 /* CYPageViewController.m */,
+				4C5560F418F68719002D6FD3 /* CYPageView.h */,
+				4C5560F518F68719002D6FD3 /* CYPageView.m */,
 			);
 			path = Reader;
 			sourceTree = "<group>";
@@ -1367,6 +1377,7 @@
 				4C9100A118F3DEA4005A5F4E /* CYBasicTableViewCell.m in Sources */,
 				F993B7E5182E87AA00E6B111 /* AFXMLRequestOperation.m in Sources */,
 				4C1E679818F052C700BFB8BD /* CYLeftRootViewController.m in Sources */,
+				4C5560F318F68276002D6FD3 /* CYPageViewController.m in Sources */,
 				4C2D87E218F54DC800B1EA4E /* ITTDataCacheManager.m in Sources */,
 				F993B68D182E868D00E6B111 /* CYAppDelegate.m in Sources */,
 				4C2D874018F54C5300B1EA4E /* DemoModel.m in Sources */,
@@ -1395,6 +1406,7 @@
 				F993B7F8182E87AA00E6B111 /* ASIS3BucketRequest.m in Sources */,
 				4C2D884F18F550DD00B1EA4E /* ITTRequestResult.m in Sources */,
 				4C2D882318F54E1B00B1EA4E /* UITextField+ITTAdditions.m in Sources */,
+				4C5560F618F68719002D6FD3 /* CYPageView.m in Sources */,
 				F993B7DE182E87AA00E6B111 /* AFHTTPClient.m in Sources */,
 				4C2D87E818F54DC800B1EA4E /* ITTDataEnvironment.m in Sources */,
 				F993B7E7182E87AA00E6B111 /* ASIAuthenticationDialog.m in Sources */,

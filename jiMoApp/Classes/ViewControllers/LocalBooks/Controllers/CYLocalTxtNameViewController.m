@@ -9,8 +9,11 @@
 #import "CYLocalTxtNameViewController.h"
 #import "CYDirectoryTableViewCell.h"
 #import "CYBookReaderViewController.h"
+#import "CYPageViewController.h"
 @interface CYLocalTxtNameViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray *directorys;
+- (IBAction)handleDemoBtn:(id)sender;
+
 @end
 
 @implementation CYLocalTxtNameViewController
@@ -75,5 +78,10 @@
     reader.bookName = directory.currentDirectoryName;
     [self.navigationController pushViewController:reader animated:YES];
     NSLog(@"---%@",self.navigationController.viewControllers);
+}
+- (IBAction)handleDemoBtn:(id)sender {
+    CYPageViewController *pageViewController = [[CYPageViewController alloc]init];
+    [self.navigationController pushViewController:pageViewController animated:YES];
+    
 }
 @end

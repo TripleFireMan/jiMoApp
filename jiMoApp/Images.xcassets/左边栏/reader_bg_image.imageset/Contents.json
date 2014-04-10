@@ -2,12 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "renhaili.png"
+      "scale" : "1x",
+      "filename" : "fancyBackground.png"
     }
   ],
   "info" : {
