@@ -27,9 +27,9 @@
 {
     [super viewDidLoad];
     [self setTitleWithAtttibuteDic];
-//    if (self.showLeftBarButtonItem) {
-//        [self initLeftBarBtnItem];
-//    }
+    if (self.showLeftBarButtonItem) {
+        [self initLeftBarBtnItem];
+    }
 }
 
 - (void)setTitleWithAtttibuteDic
