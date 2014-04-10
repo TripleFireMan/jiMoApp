@@ -9,8 +9,8 @@
 #import "CYCenterViewController.h"
 #import "MMDrawerBarButtonItem.h"
 #import "UIViewController+MMDrawerController.h"
-#import "UIImage+ITTAdditions.h"
-#import "CYFileManager.h"
+//#import "UIImage+ITTAdditions.h"
+//#import "CYFileManager.h"
 #import "CommonUtils.h"
 @interface CYCenterViewController ()
 
@@ -32,8 +32,8 @@
     [super viewDidLoad];
     self.title = @"一米阅读";
 //    NSArray *absulteArr = nil;
-    NSArray *bb = [CYFileManager  getTxtDirectorysFinishedAbsulteUrlsArray:nil];
-    NSLog(@"b = %@",bb);
+//    NSArray *bb = [CYFileManager  getTxtDirectorysFinishedAbsulteUrlsArray:nil];
+//    NSLog(@"b = %@",bb);
 }
 
 
